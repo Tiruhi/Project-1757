@@ -1,0 +1,27 @@
+@media only screen and (max-width: 993px) {
+  body .bg-t-5 {
+    background-size: cover; } }
+@media only screen and (max-width: 768px) {
+  body .sign-up #translator-info .some-text {
+    width: 500px; } }
+@media only screen and (max-width: 575px) {
+  body .container .some-text, body .container .title {
+    padding: 0 20px; }
+  body .sign-up .tab-content {
+    width: 400px; }
+    body .sign-up .tab-content #translator-info .some-text {
+      width: 400px; }
+    body .sign-up .tab-content #translatorTabContent {
+      padding: 30px;
+      margin-top: 30px; } }
+@media only screen and (max-width: 480px) {
+  body .sign-up .tab-content {
+    width: 320px; }
+    body .sign-up .tab-content #translator-info .some-text {
+      width: 280px;
+      font-size: 14px; }
+    body .sign-up .tab-content #translatorTabContent {
+      padding: 30px;
+      margin-top: 30px; } }
+
+/*# sourceMappingURL=medias.css.map */

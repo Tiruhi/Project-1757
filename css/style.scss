@@ -1,0 +1,622 @@
+@import "fonts";
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  outline: none !important;
+  cursor: pointer;
+
+  &.login, &.get-started {
+    &:hover {
+      color: #fff !important;
+      text-decoration: none;
+    }
+  }
+
+  &.btn-width-bg, &.login, &.get-started, &.border-gradient {
+    &:visited {
+      outline: 0;
+      box-shadow: none;
+    }
+
+    &:hover, &:active, &:focus {
+      box-shadow: none;
+    }
+  }
+
+
+  &.login {
+    padding-left: 60px;
+    padding-right: 60px;
+    text-transform: uppercase;
+
+  }
+
+  &.get-started {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+
+  &.btn-width-bg {
+    font-size: 20px;
+    font-family: "NeueHaasUnicaExtraBold";
+
+    color: #fff;
+    background: linear-gradient(to right, #e301ec, #920fe6);
+
+    border-radius: 28.5px;
+    outline: none;
+
+    &:hover, &:active, &:focus {
+      background: linear-gradient(to right, darken(#e301ec, 5), darken(#920fe6, 5));
+    }
+  }
+
+  &.btn-width-border {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #282828;
+    border: 1px solid;
+    border: solid 1px transparent;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #e301ec, #920fe6);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 60px;
+    outline: none;
+    text-align: center;
+    padding: 0;
+
+    &:hover, &:active, &:focus {
+      background-image: linear-gradient(rgba(241, 241, 241, 0.88), #fff), radial-gradient(circle at top left, #e301ec, #920fe6);
+      transition: background-image 1s ease;
+    }
+  }
+
+  &.smarter-button {
+    position: relative;
+    height: 60px;
+    width: 170px;
+    margin-bottom: 90px;
+    padding-left: 30px;
+    font-size: 16px;
+
+    &:before {
+      content: url("../img/start.png");
+      position: absolute;
+      z-index: 1000;
+      top: 0;
+      left: -2px;
+      width: 60px;
+      height: 60px;
+    }
+  }
+}
+
+.border-gradient-wrap {
+  background: linear-gradient(to right, #e301ec, #920fe6);
+  padding: 1px;
+  border-radius: 28px;
+
+button {
+  &.border-gradient {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #fff;
+    color: #1b1e21;
+    border-radius: 28px;
+    text-align: center;
+
+    }
+  }
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+
+  .bg-t {
+    background-image: url("../img/top-bg.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    .navbar {
+      padding-top: 20px;
+      padding-left: 190px;
+      padding-right: 60px;
+    }
+
+    .navbar-expand-lg {
+      .navbar-nav {
+        .nav-link {
+          font-family: "NeueHaasUnicaExtraBold";
+          font-size: 20px;
+          text-transform: uppercase;
+          color: #3d3d3d;
+          padding-right: 50px;
+          padding-left: 0;
+          text-decoration: none;
+
+          &:last-child {
+            //padding-right: 65px;
+          }
+        }
+      }
+    }
+
+    section {
+      &.smarter {
+        padding: 200px 60px 0;
+
+        //.scroll-down {
+        //  position: absolute;
+        //  top: 146px;
+        //  z-index: 100;
+        //}
+
+        .smarter-content {
+          .smarter-title {
+            font-family: "NeueHaasUnicaExtraBold";
+            font-size: 50px;
+            color: #8809ff;
+            text-transform: uppercase;
+            text-align: start;
+            padding-top: 60px;
+            padding-right: 60px;
+
+          }
+
+          .smarter-text {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: #282828;
+            padding-top: 35px;
+            padding-bottom: 30px;
+            padding-right: 60px;
+
+          }
+
+        }
+
+        .smarter-right {
+          padding-left: 20px;
+
+          &.note-phone-bg {
+            img {
+              width: 100%;
+              background-repeat: no-repeat;
+              background-position: right center;
+              position: relative;
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+  .bg-t-2 {
+
+    .higher-grounds-block {
+
+      padding-bottom: 250px;
+      /* padding-top: 130px; */
+      overflow: hidden;
+      position: relative;
+
+      background: rgba(244, 246, 248, 1);
+      background: linear-gradient(15deg, #fbfdff 0%, #fbfdff 10%, #fbfdff 65%, #fbfdff 47%, rgba(244, 246, 248, 0.25) 70%, rgba(244, 246, 248, 0) 81%, rgba(244, 246, 248, 0) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='##fbfdff', endColorstr='##fbfdff', GradientType=1);
+
+      .top-rotated-rel {
+        width: 100%;
+        height: 21px;
+        /* margin-top: 277px; */
+        position: relative;
+        transform: rotate(15deg);
+        margin: 0 auto;
+        margin-top: 220px;
+
+        .top-rotated {
+          position: absolute;
+          z-index: 10;
+          left: -5%;
+          text-align: center;
+          top: -37px;
+          background: linear-gradient(to top, #fbfdff 23%, #f4f6f8 77%);
+          height: 200px;
+          min-width: 115%;
+          max-width: 180%;
+
+          a.scroll-down {
+            display: block;
+            margin: -65px auto;
+            width: 130px;
+          }
+        }
+      }
+
+
+      .higher-grounds-content {
+        text-align: center;
+        padding: 170px 0 150px;
+
+        .higher-grounds-title {
+          font-family: "NeueHaasUnicaExtraBold";
+
+          font-size: 40px;
+          line-height: 63px;
+          color: #8809ff;
+          text-transform: uppercase;
+
+        }
+
+        .higher-grounds-text {
+          font-family: 'Open Sans', sans-serif;
+          font-size: 16px;
+          line-height: 26px;
+          color: #282828;
+          padding-top: 30px;
+        }
+      }
+
+      .higher-grounds-item {
+        max-width: 70%;
+        margin: 0 auto;
+
+        .higher-grounds-item-img {
+          width: 100%;
+        }
+
+        .higher-grounds-item-title {
+          font-family: "NeueHaasUnicaExtraBold";
+          font-size: 30px;
+          line-height: 63px;
+          color: #0e0e0e;
+          text-align: center;
+          text-transform: uppercase;
+        }
+
+        .higher-grounds-item-text {
+          font-family: 'Open Sans', sans-serif;
+          font-size: 16px;
+          line-height: 26px;
+          //padding-top: 25px;
+          color: #282828;
+        }
+      }
+    }
+  }
+
+  .bg-t-3 {
+    .artists-block {
+      background-color: #fbfdff;
+
+      .artist-item {
+        .artist-item-title {
+          text-transform: uppercase;
+          font-family: "NeueHaasUnicaExtraBold";
+          font-size: 40px;
+          color: #8809ff;
+          padding-bottom: 60px;
+
+        }
+
+        .artist-item-img {
+          width: 100%;
+        }
+
+        .custom-align-items {
+          align-items: flex-end;
+
+        }
+
+        .artist-item-text {
+          font-family: 'Open Sans', sans-serif;
+          font-size: 16px;
+          line-height: 26px;
+
+          color: #282828;
+          padding-top: 60px;
+          max-width: 80%;
+        }
+
+        .artist-item-btn-group {
+          font-family: 'Open Sans', sans-serif;
+
+          width: 80%;
+          display: inline-flex;
+
+          button {
+            &.get-started {
+              margin-right: 20px;
+            }
+          }
+
+        }
+      }
+
+      .artist-items-small {
+        .artist-item-small-img {
+          width: 75%;
+          box-shadow: 0 10px 10px 3px rgba(28, 28, 28, 0.17);
+          margin: 0 50px 50px 0;
+        }
+      }
+
+      overflow: hidden;
+
+      .bottom-rotated-rel {
+        width: 100%;
+        height: 21px;
+        position: relative;
+        transform: rotate(-15deg);
+        margin: 0 auto;
+        margin-top: 130px;
+        margin-bottom: 125px;
+
+        .bottom-rotated {
+          position: absolute;
+          z-index: 0;
+          left: -5%;
+          text-align: center;
+          top: -240px;
+          background: linear-gradient(to top, #fbfdff00 7%, #f4f6f8 37%);
+
+          height: 250px;
+          min-width: 120%;
+          max-width: 180%
+
+        }
+      }
+
+    }
+  }
+
+  .bg-t-4 {
+    padding-top: 150px;
+
+    .dashboard {
+
+      .top-150 {
+        top: -150px;
+      }
+
+      .bg-t-41 {
+        background-image: url(../img/dashboard-bg.png);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        z-index: 100;
+        width: 772px;
+        height: 827px;
+        top: -700px;
+        right: 50%;
+
+      }
+
+      .dashboard-left {
+        position: absolute;
+        z-index: 100;
+
+        .mac {
+          //position: absolute;
+          //z-index: 105;
+          width: 100%;
+          background-repeat: no-repeat;
+          background-position: right center;
+
+        }
+
+      }
+
+      .dashboard-content {
+        padding-left: 60px;
+
+        .dashboard-title {
+          font-family: "NeueHaasUnicaExtraBold";
+          font-size: 40px;
+          color: #8809ff;
+          text-transform: uppercase;
+          padding-bottom: 30px;
+        }
+
+        .dashboard-text {
+          font-family: 'Open Sans', sans-serif;
+
+
+          font-size: 16px;
+          line-height: 26px;
+          color: #282828;
+          padding-bottom: 25px;
+        }
+      }
+    }
+  }
+
+  .bg-t-5 {
+    background-image: url(../img/buttom-bg.png);
+    background-position: center 80%;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    .features {
+      padding: 350px 0 60px 0;
+
+      .features-content {
+        text-align: center;
+
+        .features-title {
+          font-family: "NeueHaasUnicaExtraBold";
+          font-size: 40px;
+          line-height: 63px;
+          text-transform: uppercase;
+          color: #8809ff;
+
+        }
+
+        .features-text {
+          font-family: 'Open Sans', sans-serif;
+          font-size: 16px;
+          line-height: 26px;
+          color: #1c1c1c;
+
+        }
+      }
+
+      .features-item {
+        background: #fff;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 16px 0 30px rgba(77, 77, 77, 0.07);
+        margin: 20px 35px;
+        padding: 35px 20px;
+        //min-width: 320px;
+
+        .features-item-text {
+          font-family: 'Open Sans', sans-serif;
+          font-size: 16px;
+          line-height: 26px;
+          color: #282828;
+          padding-top: 20px;
+        }
+
+        .features-item-img {
+
+        }
+      }
+
+    }
+  }
+
+  .footer {
+    background-color: #e8e8e8;
+    padding: 150px 0 40px;
+
+    .footer-logo-block {
+
+    }
+
+    .footer-nav {
+      .footer-nav-item {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        color: #191919;
+        padding-right: 80px;
+        text-transform: uppercase;
+
+        &:hover {
+
+        }
+      }
+    }
+
+    .footer-newslater-form {
+      .form-group {
+        label {
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 600;
+          font-size: 16px;
+          color: #191919;
+        }
+
+        #email {
+          display: block;
+          width: 100%;
+          height: 40px;
+          padding: .375rem .75rem;
+          font-size: 1rem;
+          font-weight: 400;
+          line-height: 1.5;
+          color: #191919;
+          background-color: transparent;
+          background-clip: padding-box;
+          border: 1px solid #9d9d9d;
+          border-radius: .25rem;
+          transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        }
+
+        .form-control {
+          &:focus {
+            outline: 0;
+            box-shadow: none;
+          }
+        }
+
+      }
+
+      .btn-send {
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        right: -35px;
+        top: 31px;
+        background-color: transparent;
+        border: 1px solid transparent;
+
+        &:focus {
+          outline: 0;
+          box-shadow: none;
+        }
+      }
+    }
+
+    .footer-social {
+      .footer-social-item {
+        padding-right: 15px;
+      }
+
+      .insta {
+        .fab.fa-instagram {
+          color: transparent;
+          background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+          background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+          background-clip: text;
+          -webkit-background-clip: text;
+        }
+      }
+
+      .fb {
+        .fab.fa-facebook {
+          color: #475993;
+        }
+      }
+
+      .in {
+        .fab.fa-linkedin {
+          color: #0077b7;
+        }
+      }
+
+      .spotify {
+        .fab.fa-spotify {
+          color: #00d95f;
+        }
+      }
+
+      .twitter {
+        .fab.fa-spotify {
+          color: #76a9ea;
+        }
+      }
+
+      .youtube {
+        .fab.fa-youtube {
+          color: #f61c0d;
+        }
+      }
+    }
+
+  }
+}
+
+@import "medias";
+

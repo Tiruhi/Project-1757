@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'OpenSansRegular';
+  //src: url('fonts/OpenSans/Regular/OpenSans-Regular.ttf') format('ttf');
+  src: url('fonts/OpenSans/Regular/open-sans.regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'OpenSans-SemiBold';
+  src: url('fonts/OpenSans/SemiBold/OpenSans-SemiBold.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'NeueHaasUnicaBoldItalic';
+  src: url('fonts/NeueHaasUnica/NeueHaasUnica-BoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "NeueHaasUnicaExtraBold";
+  src: url("fonts/NeueHaasUnica/ExtraBold/NeueHaasUnica-ExtraBold.ttf") format('ttf');
+  src: url("fonts/NeueHaasUnica/ExtraBold/NeueHaasUnica-ExtraBold.eot") format('eot');
+  src: url("fonts/NeueHaasUnica/ExtraBold/NeueHaasUnica-ExtraBold.woff") format('woff');
+  src: url("fonts/NeueHaasUnica/ExtraBold/NeueHaasUnica-ExtraBold.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: "NeueHaasUnicaRegular";
+  src: url("fonts/NeueHaasUnica/Regular/NeueHaasUnica-Regular.ttf") format('ttf');
+  src: url("fonts/NeueHaasUnica/Regular/NeueHaasUnica-Regular.eot") format('eot');
+  src: url("fonts/NeueHaasUnica/Regular/NeueHaasUnica-Regular.woff") format('woff');
+  src: url("fonts/NeueHaasUnica/Regular/NeueHaasUnica-Regular.woff2") format('woff2');
+}
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css");
