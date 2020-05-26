@@ -1,3 +1,6 @@
+/*start home page media styles*/
+
+
 @media only screen and (max-width: 1755px) {
   body {
     .footer {
@@ -293,12 +296,6 @@
   }
 }
 
-@media only screen and (max-width: 575px) {
-  body {
-
-  }
-}
-
 @media only screen and (max-width: 480px) {
   body {
     button.smarter-button {
@@ -337,3 +334,104 @@
     }
   }
 }
+
+/*end home page media styles*/
+
+
+/*start signup page media styles*/
+@media only screen and (max-width: 1200px) {
+  body {
+    .sign-up {
+      .form-wrap {
+        width: 480px;
+
+        form {
+          padding: 35px 80px 35px 80px;
+        }
+      }
+    }
+
+    h1 {
+      &.title {
+        font-size: 40px;
+        padding-bottom: 35px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 993px) {
+  body {
+    .sign-up {
+      .form-wrap {
+        width: auto;
+
+        form {
+          padding: 35px 150px 20px 150px;
+        }
+      }
+    }
+
+    h1 {
+      &.title {
+        font-size: 40px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        text-align: center;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    .sign-up {
+      .form-wrap {
+        width: auto;
+
+        form {
+          padding: 35px 80px 20px 80px;
+        }
+      }
+
+    }
+    h1 {
+      &.title {
+        font-size: 30px;
+        margin-top: 60px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    .sign-up {
+      .form-wrap {
+        width: auto;
+
+        form {
+
+          padding: 35px 60px 20px 60px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  body {
+    .sign-up {
+      .form-wrap {
+        width: auto;
+
+        form {
+
+          padding: 35px 30px 20px 30px;
+        }
+      }
+    }
+  }
+}
+
+/*end signup page media styles*/
