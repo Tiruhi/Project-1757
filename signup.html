@@ -13,7 +13,6 @@
     <!--start fonts-->
     <link href="http://allfont.ru/allfont.css?fonts=open-sans-semibold" rel="stylesheet" type="text/css"/>
 
-    <!--    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">-->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
     <!--end fonts-->
 
@@ -22,31 +21,24 @@
     <!--jQuery-->
     <script src="js/jquery-3.4.1.slim.min.js"></script>
     <!--jQuery-->
-    <!--Select 2-->
-    <!--    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet"/>-->
-    <!--Select 2-->
 
     <title>beatlify</title>
 
     <!-- Font Icon -->
     <!-- Main css -->
-    <!--    <link rel="stylesheet" href="css/style.css">-->
 </head>
 <body class="body">
 <img id="background" src="img/signup-bg.png"/>
-<img id="circle" src="img/links-people-to-music.png"/>
 <div class="sign-up">
 
     <div class="container">
         <div class="row no-gutters d-flex justify-content-start">
-            <!--            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12"></div>-->
             <div class="col-xl-12 col-lg-10 col-md-12 col-sm-12">
                 <a href="#" class="logo"><img src="img/logo.png" alt="beatlify"></a>
             </div>
-            <!--            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12"></div>-->
 
         </div>
-        <div class="row no-gutters d-flex justify-content-between mb-xl-5 mb-lg-5">
+        <div class="row no-gutters d-flex justify-content-between ">
             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                 <div class="form-wrap">
                     <form method="POST" class="appointment-form" id="appointment-form">
@@ -56,7 +48,7 @@
                             <div class="select-list">
                                 <!--                                name="state"-->
                                 <select name="course_type" id="account_type"
-                                        class="course_type js-example-basic-single">
+                                        class="course_type">
                                     <option value="artist" selected="selected">Artist</option>
                                     <option value="society">Visagiste</option>
                                     <option value="language">Manager</option>
@@ -76,12 +68,12 @@
                                    required/>
                         </div>
                         <div class="form-group">
-                            <label for="pass">Email Address</label>
+                            <label for="pass">Password</label>
                             <input class="form-control" type="password" name="pass" id="pass" placeholder="******"
                                    required/>
                         </div>
                         <div class="form-group">
-                            <label for="conf_pass">Email Address</label>
+                            <label for="conf_pass">Repeat Password</label>
                             <input class="form-control" type="password" name="conf_pass" id="conf_pass"
                                    placeholder="******" required/>
 
@@ -102,15 +94,17 @@
                         <div class="sign-in">
                             <span>Already have an account? <a href="#">Sign In</a></span>
                         </div>
-                    </form>
 
+                    </form>
+                    <div class="links-people-wrap">
+                        <div class="links-people">
+                            <img src="img/links-people-to-music.png" alt="Links people to music">
+                        </div>
+                    </div>
                 </div>
 
             </div>
-            <!--            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12">
-            -->
 
-            <!--            </div>-->
             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12  align-self-xl-end align-self-lg-end align-self-md-center align-self-sm-center">
                 <h1 class="title">
                     Create the perfect page to display your music
@@ -122,24 +116,5 @@
 
 </div>
 
-<!-- JS -->
-<!--Select 2-->
-<!--<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>-->
-<!--Select 2-->
-
-
-<script>
-    $(document).ready(function () {
-        $('select option').mouseover(function () {
-            $(this).style('border', '1px solid #fff');
-        });
-    });
-    $(document).ready(function () {
-        $('select option').mousemove(function () {
-            $(this).style('border', '1px solid #fff');
-        });
-    });
-
-</script>
 </body>
 </html>
