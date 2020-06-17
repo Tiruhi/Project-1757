@@ -196,12 +196,13 @@ label {
     top: calc(100% - 19%);
     right: 25px;
 }
-.range14 .range input[type=range] ,
-.range15 .range input[type=range] ,
-.range16 .range input[type=range]
-{
+
+.range14 .range input[type=range],
+.range15 .range input[type=range],
+.range16 .range input[type=range] {
     background-color: transparent;
 }
+
 .item-music-services .tr-spotify form,
 .item-music-services .tr-apple-music form,
 .item-music-services .tr-deezer form {
@@ -773,7 +774,7 @@ label {
 .item-insta-shares .range12 .range__counter,
 .item-copied-links-rate .range13 .range__counter {
     color: #ffffff;
-    margin: 0 0 0 225px;
+    margin: 0 0 0 200px;
 }
 
 .item-fb-shares .range10 .range__input-fill,

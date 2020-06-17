@@ -90,6 +90,7 @@ body {
 .table td, .table th {
   vertical-align: middle;
 }
+
 .item-map {
   .jqvmap-zoomin, .jqvmap-zoomout {
     position: absolute;
@@ -109,6 +110,7 @@ body {
     margin-top: 0px;
   }
 }
+
 ul, li {
   list-style-type: none;
   padding-left: 0;
@@ -140,6 +142,11 @@ header {
     }
   }
 
+  .dropdown-menu {
+    right: 0;
+    left: inherit;
+  }
+
   .dropdown-toggle {
     outline: none;
   }
@@ -149,6 +156,7 @@ header {
     height: 30px;
   }
 }
+
 .item-dashboard-bottom {
   h2 {
     font-family: OpenSansRegular, sans-serif;
@@ -159,11 +167,13 @@ header {
     font-weight: 600;
   }
 }
+
 .item-dashboard {
   h1 {
     font-size: 30px;
     margin-bottom: 0;
   }
+
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 30px;
@@ -369,21 +379,22 @@ header {
 /*start dropdown-menu-custom-styles*/
 
 .item-visits-chart {
-.chart-div {
-  .table {
-    th {
-      font-family: OpenSansRegular, sans-serif;
-      font-size: 14px;
-      color: #8d8d8d;
-      text-align: center;
-      border-bottom: 0;
-      padding: 0.5rem 0.5rem 0 0.5rem;
+  .chart-div {
+    .table {
+      th {
+        font-family: OpenSansRegular, sans-serif;
+        font-size: 14px;
+        color: #8d8d8d;
+        text-align: center;
+        border-bottom: 0;
+        padding: 0.5rem 0.5rem 0 0.5rem;
 
         border-top: 0;
+      }
     }
   }
 }
-}
+
 .item-links-chart {
   .card-header {
     background-color: transparent;
@@ -551,11 +562,14 @@ header {
 
 .item-sources {
   .table {
-td {
-  text-align: center;
-}
+    td {
+      text-align: center;
+    }
+
     th, td {
-      padding: 20px 0;}
+      padding: 20px 0;
+    }
+
     th {
       &.item-sources-big-th {
         font-family: OpenSans-SemiBold, sans-serif;
@@ -572,6 +586,7 @@ td {
       &.item-sources-vertical-th {
         span {
           color: #8d8d8d;
+          padding-left: 5px;
         }
 
         font-family: OpenSans-SemiBold, sans-serif;
@@ -603,6 +618,7 @@ td {
 
 .item-country-group-1, .item-country-group-2 {
   margin-bottom: 35px;
+
   .table {
     thead {
       th {
@@ -611,14 +627,15 @@ td {
         font-size: 14px;
       }
     }
+
     tbody {
-    th, td {
-      font-family: OpenSansRegular, sans-serif;
-      font-size: 15px;
-      color: #282828;
-    }
+      th, td {
+        font-family: OpenSansRegular, sans-serif;
+        font-size: 15px;
+        color: #282828;
+      }
     }
   }
 }
-@import "medias";
 
+@import "medias";

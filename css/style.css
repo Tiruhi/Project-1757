@@ -724,6 +724,19 @@ body .footer .footer-social .youtube .fab.fa-youtube {
     margin-bottom: 60px;
     text-align: center;
   }
+
+  /*smartlinks page */
+  .created-smartlinks-item {
+    align-content: start;
+  }
+  .created-smartlinks-item > div {
+    flex-wrap: wrap;
+    align-content: start;
+  }
+  .created-smartlinks-item > div div {
+    margin-top: 15px;
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 768px) {
   .sign-up .form-wrap {

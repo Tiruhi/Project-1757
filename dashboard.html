@@ -28,7 +28,8 @@
                 showTooltip: true,
                 scaleColors: ['#C8EEFF', '#0071bb'],
                 values: sample_data,
-                normalizeFunction: 'polynomial'
+                normalizeFunction: 'polynomial',
+                responsive: true
             });
         });
     </script>
@@ -458,7 +459,7 @@
                 <th scope="col" class="item-sources-horisontal-th">Affiliate ID</th>
             </tr>
             <tr>
-                <th scope="col" class="item-sources-horisontal-th text-left"># Referer</th>
+                <th scope="col" class="item-sources-horisontal-th text-left pl-1"># Referer</th>
                 <th scope="col" class="item-sources-horisontal-th text-center">Visits</th>
                 <th scope="col" class="item-sources-horisontal-th text-center">Click-throughs</th>
                 <th scope="col" class="item-sources-horisontal-th text-center">CTR</th>
@@ -588,7 +589,7 @@
     <div class="grid-item item-dashboard-bottom"><h2>Dashboard</h2></div>
     <div class="grid-item item-map">
 
-        <div id="vmap" style="min-width: 900px; min-height: 600px"></div>
+        <div id="vmap" style="max-width: 900px; max-height: 600px"></div>
     </div>
 
     <div class="grid-item item-country-group-1">
@@ -695,7 +696,19 @@
 
 </script>
 
+<script>
+    function sizeMap() {
+        var containerWidth = $('.item-map').width(),
+            containerHeight = (containerWidth / 1.4);
 
+        $('#vmap').css({
+            'width': containerWidth,
+            'height': containerHeight
+        });
+    }
+    sizeMap();
+    $(window).on("resize", sizeMap);
+</script>
 <!--chart js-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
 <script type="text/javascript" src="js/range.js"></script>

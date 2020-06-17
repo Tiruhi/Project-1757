@@ -1,0 +1,139 @@
+.item-dashboard {
+  padding: 7px 40px;
+  max-height: 50px;
+  margin-right: 15px;
+}
+
+.item-create-smartlink {
+  margin-right: 15px;
+}
+.item-create-smartlink .card .card-header {
+  padding: 0 1.25rem;
+  background-color: #ffffff;
+  border-bottom: none;
+}
+.item-create-smartlink .card .card-header .create-smartlink-btn {
+  padding: 15px 20px;
+  border: none;
+  margin: 20px auto 0;
+  font-size: 14px;
+  line-height: 14px;
+  border-radius: 25px;
+}
+.item-create-smartlink .card .card-body .list-group .list-group-item {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #161616;
+  border: none;
+  box-shadow: 7px 0 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 10px;
+}
+.item-create-smartlink .card .card-body .list-group .list-group-item .list-item-url {
+  position: relative;
+  color: #161616;
+  vertical-align: middle;
+}
+.item-create-smartlink .card .card-body .list-group .list-group-item .list-item-url:before {
+  content: url("../img/www.png");
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.item-create-smartlink .card .card-body .list-group .list-group-item .list-item-name {
+  font-weight: bolder;
+}
+.item-create-smartlink .card .card-body .list-group .list-group-item .list-item-count {
+  position: relative;
+}
+.item-create-smartlink .card .card-body .list-group .list-group-item .list-item-count:before {
+  content: url("../img/graph.png");
+  width: 20px;
+  height: 16px;
+  margin-right: 5px;
+}
+.item-create-smartlink .card .card-body .list-group .list-group-item .switch-group {
+  align-items: flex-end;
+}
+.item-create-smartlink .card .card-body .list-group .list-group-item .switch-group .list-item-switch .switch {
+  position: relative;
+  display: inline-block;
+  width: 36px;
+  height: 20px;
+  color: #3F3B48;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.5, #ccc), color-stop(0.5, #b6b4b4));
+  border-radius: 34px;
+}
+.item-create-smartlink .card .card-body .list-group .list-group-item .switch-group .list-item-switch .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.item-create-smartlink .card .card-body .list-group .list-group-item .switch-group .list-item-switch .switch span.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 34px;
+  margin: 1px;
+}
+.item-create-smartlink .card .card-body .list-group .list-group-item .switch-group .list-item-switch .switch span.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  right: 2px;
+  top: 1px;
+  bottom: 2px;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+.item-create-smartlink .card .card-body .list-group .list-group-item .switch-group .list-item-switch .switch input:checked + .slider:before {
+  background: linear-gradient(to right, #cb01d3, #830dce);
+  left: 2px;
+  top: 1px;
+  bottom: 2px;
+}
+.item-create-smartlink .card .card-body .list-group .list-group-item .switch-group .list-item-switch .input-checked {
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.5, #cb01d3), color-stop(0.5, #830dce));
+}
+.item-create-smartlink .card .card-body .list-group .list-group-item .switch-group .dropdown .dropdown-menu {
+  right: 0;
+  left: inherit;
+}
+
+.item-footer {
+  background-color: #29042c;
+  margin-top: -15px;
+  margin-left: -15px;
+}
+.item-footer .item-footer-content {
+  background-image: url(../img/dashboard-page-bg.png);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+.item-footer .item-footer-content .item-footer-logo {
+  margin: 15px auto 30px;
+}
+.item-footer .item-footer-content .item-footer-logo img {
+  margin-top: 30px;
+}
+.item-footer .item-footer-content .item-footer-text {
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+.item-footer .item-footer-content .item-footer-text a {
+  color: #9b0de7;
+}
+
+/*# sourceMappingURL=smartlinks.css.map */

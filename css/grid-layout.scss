@@ -1,24 +1,95 @@
 /*start grid layout */
-.item-header {grid-area: header}
-.item-dashboard {grid-area: dashboard}
-.item-sidebar {grid-area: sidebar}
-.item-select-smartlink {grid-area: select-smartlink}
-.item-single-visits {grid-area: vistts}
-.item-views {grid-area: views}
-.item-link-cliks {grid-area: cliks}
-.item-click-rate {grid-area: rate}
-.item-visits-chart {grid-area: visitsChart}
-.item-links-chart {grid-area: linksChart}
-.item-music-services {grid-area: music-services}
-.item-sources {grid-area: sources}
-.item-fb-shares {grid-area: fb-shares}
-.item-twitter-shares {grid-area: twitter-shares}
-.item-insta-shares {grid-area: insta-shares}
-.item-copied-links-rate {grid-area: copied-links-rate}
-.item-dashboard-bottom {grid-area: dashboard-bottom}
-.item-map {grid-area: map}
-.item-country-group-1 {grid-area: country-group-1}
-.item-country-group-2 {grid-area: country-group-2}
+.item-header {
+  grid-area: header
+}
+
+.item-dashboard {
+  grid-area: dashboard
+}
+
+.item-sidebar {
+  grid-area: sidebar
+}
+
+.item-select-smartlink {
+  grid-area: select-smartlink
+}
+
+.item-single-visits {
+  grid-area: vistts
+}
+
+.item-views {
+  grid-area: views
+}
+
+.item-link-cliks {
+  grid-area: cliks
+}
+
+.item-click-rate {
+  grid-area: rate
+}
+
+.item-visits-chart {
+  grid-area: visitsChart
+}
+
+.item-links-chart {
+  grid-area: linksChart
+}
+
+.item-music-services {
+  grid-area: music-services
+}
+
+.item-sources {
+  grid-area: sources
+}
+
+.item-fb-shares {
+  grid-area: fb-shares
+}
+
+.item-twitter-shares {
+  grid-area: twitter-shares
+}
+
+.item-insta-shares {
+  grid-area: insta-shares
+}
+
+.item-copied-links-rate {
+  grid-area: copied-links-rate
+}
+
+.item-dashboard-bottom {
+  grid-area: dashboard-bottom
+}
+
+.item-map {
+  grid-area: map
+}
+
+.item-country-group-1 {
+  grid-area: country-group-1
+}
+
+.item-country-group-2 {
+  grid-area: country-group-2
+}
+
+.item-dashboard,
+.item-select-smartlink,
+.item-click-rate,
+.item-links-chart,
+.item-sources,
+.item-copied-links-rate,
+.item-dashboard-bottom,
+.item-map,
+.item-country-group-2 {
+  margin-right: 15px;
+}
 
 .container-grid {
   //background-color: aquamarine;
@@ -40,21 +111,150 @@
           "sidebar map  map  map  map"
           "sidebar country-group-1 country-group-1 country-group-2 country-group-2"
 }
+
 .grid-item {
   //border: 1px solid black;
   background-color: #fff;
   box-shadow: 7px 0 10px rgba(0, 0, 0, 0.05);
 
 }
+
 /*end grid layout*/
 
 .item-header {
   background-color: #fff;
 }
+
 .item-sidebar {
-  background-image: url("../img/left-sidebar-bg.png") ;
+  background-image: url("../img/left-sidebar-bg.png");
   background-size: cover;
 }
+
 .item-select-smartlink {
-  background-image: url("../img/select-smartlink-bg.png") ;
+  background-image: url("../img/select-smartlink-bg.png");
+}
+
+/*grid medias */
+@media only screen and (max-width: 993px) {
+
+  .container-grid {
+
+    grid-template-areas:
+          "header header header header header"
+          "sidebar dashboard dashboard dashboard dashboard"
+          "sidebar select-smartlink select-smartlink select-smartlink select-smartlink"
+          "sidebar vistts vistts views views"
+          "sidebar cliks cliks rate rate"
+          "sidebar visitsChart visitsChart linksChart linksChart"
+          "sidebar music-services music-services music-services music-services"
+          "sidebar sources sources sources sources"
+          "sidebar fb-shares fb-shares twitter-shares twitter-shares"
+          "sidebar insta-shares  insta-shares copied-links-rate copied-links-rate"
+          "sidebar dashboard-bottom dashboard-bottom dashboard-bottom dashboard-bottom"
+          "sidebar map  map  map  map"
+          "sidebar country-group-1 country-group-1 country-group-2 country-group-2"
+  }
+
+  .item-dashboard,
+  .item-select-smartlink,
+  .item-click-rate,
+  .item-links-chart,
+  .item-sources,
+  .item-copied-links-rate,
+  .item-dashboard-bottom,
+  .item-map,
+  .item-country-group-2,
+  .item-views,
+  .item-music-services,
+  .item-twitter-shares {
+    margin-right: 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .container-grid {
+
+    grid-template-areas:
+          "header header header header header"
+          "sidebar dashboard dashboard dashboard dashboard"
+          "sidebar select-smartlink select-smartlink select-smartlink select-smartlink"
+          "sidebar vistts vistts views views"
+          "sidebar cliks cliks rate rate"
+          "sidebar visitsChart visitsChart visitsChart visitsChart"
+          "sidebar linksChart linksChart linksChart linksChart"
+          "sidebar music-services music-services music-services music-services"
+          "sidebar sources sources sources sources"
+          "sidebar fb-shares fb-shares twitter-shares twitter-shares"
+          "sidebar insta-shares  insta-shares copied-links-rate copied-links-rate"
+          "sidebar dashboard-bottom dashboard-bottom dashboard-bottom dashboard-bottom"
+          "sidebar map  map  map  map"
+          "sidebar country-group-1 country-group-1 country-group-1 country-group-1"
+          "sidebar country-group-2 country-group-2 country-group-2 country-group-2"
+  }
+  .item-dashboard,
+  .item-select-smartlink,
+  .item-click-rate,
+  .item-links-chart,
+  .item-sources,
+  .item-copied-links-rate,
+  .item-dashboard-bottom,
+  .item-map,
+  .item-country-group-1,
+  .item-country-group-2,
+  .item-views,
+  .item-music-services,
+  .item-twitter-shares,
+  .item-visits-chart,
+  {
+    margin-right: 15px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+  .container-grid {
+
+    grid-template-areas:
+          "header header header header header"
+          "sidebar dashboard dashboard dashboard dashboard"
+          "sidebar select-smartlink select-smartlink select-smartlink select-smartlink"
+          "sidebar vistts vistts vistts vistts "
+          "sidebar views views views views"
+          "sidebar cliks cliks cliks cliks"
+          "sidebar rate rate rate rate"
+          "sidebar visitsChart visitsChart visitsChart visitsChart"
+          "sidebar linksChart linksChart linksChart linksChart"
+          "sidebar music-services music-services music-services music-services"
+          "sidebar sources sources sources sources"
+          "sidebar fb-shares fb-shares fb-shares fb-shares"
+          "sidebar twitter-shares twitter-shares twitter-shares twitter-shares"
+          "sidebar insta-shares  insta-shares insta-shares  insta-shares"
+          "sidebar copied-links-rate copied-links-rate copied-links-rate copied-links-rate"
+          "sidebar dashboard-bottom dashboard-bottom dashboard-bottom dashboard-bottom"
+          "sidebar map  map  map  map"
+          "sidebar country-group-1 country-group-1 country-group-1 country-group-1"
+          "sidebar country-group-2 country-group-2 country-group-2 country-group-2"
+  }
+  .item-dashboard,
+  .item-select-smartlink,
+  .item-single-visits,
+  .item-click-rate,
+  .item-link-cliks,
+  .item-links-chart,
+  .item-sources,
+  .item-copied-links-rate,
+  .item-dashboard-bottom,
+  .item-map,
+  .item-country-group-1,
+  .item-country-group-2,
+  .item-views,
+  .item-music-services,
+  .item-fb-shares,
+  .item-insta-shares,
+  .item-twitter-shares,
+  .item-visits-chart,
+  {
+    margin-right: 15px;
+  }
 }

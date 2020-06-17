@@ -392,6 +392,21 @@
     }
   }
 
+  /*smartlinks page */
+
+  .created-smartlinks-item {
+    align-content: start;
+
+    > div {
+      flex-wrap: wrap;
+      align-content: start;
+      div {
+        margin-top: 15px;
+        width: 100%;
+      }
+    }
+  }
+
 }
 
 @media only screen and (max-width: 768px) {
