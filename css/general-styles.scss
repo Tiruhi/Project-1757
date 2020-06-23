@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-button {
+button , input, input[type="checkbox"] {
   outline: none !important;
   cursor: pointer;
 
@@ -70,6 +70,10 @@ button {
     outline: none;
     text-align: center;
     padding: 0;
+
+    &.add-more-btn {
+      color: #e301ec;
+    }
 
     &:hover, &:active, &:focus {
       background-image: linear-gradient(rgba(241, 241, 241, 0.88), #fff), radial-gradient(circle at top left, #e301ec, #920fe6);
@@ -158,55 +162,6 @@ body {
       }
     }
 
-    section {
-      &.smarter {
-        padding: 200px 60px 0;
-
-        //.scroll-down {
-        //  position: absolute;
-        //  top: 146px;
-        //  z-index: 100;
-        //}
-
-        .smarter-content {
-          .smarter-title {
-            font-family: "NeueHaasUnicaExtraBold";
-            font-size: 50px;
-            color: #8809ff;
-            text-transform: uppercase;
-            text-align: start;
-            padding-top: 60px;
-            padding-right: 60px;
-
-          }
-
-          .smarter-text {
-            font-family: 'Open Sans', sans-serif;
-            font-size: 16px;
-            color: #282828;
-            padding-top: 35px;
-            padding-bottom: 30px;
-            padding-right: 60px;
-
-          }
-
-        }
-
-        .smarter-right {
-          padding-left: 20px;
-
-          &.note-phone-bg {
-            img {
-              width: 100%;
-              background-repeat: no-repeat;
-              background-position: right center;
-              position: relative;
-            }
-          }
-        }
-      }
-    }
-
   }
 
   .bg-t-2 {
@@ -214,295 +169,12 @@ body {
     .higher-grounds-block {
 
       padding-bottom: 250px;
-      /* padding-top: 130px; */
       overflow: hidden;
       position: relative;
 
       background: rgba(244, 246, 248, 1);
       background: linear-gradient(15deg, #fbfdff 0%, #fbfdff 10%, #fbfdff 65%, #fbfdff 47%, rgba(244, 246, 248, 0.25) 70%, rgba(244, 246, 248, 0) 81%, rgba(244, 246, 248, 0) 100%);
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='##fbfdff', endColorstr='##fbfdff', GradientType=1);
-
-      .top-rotated-rel {
-        width: 100%;
-        height: 21px;
-        /* margin-top: 277px; */
-        position: relative;
-        transform: rotate(15deg);
-        margin: 0 auto;
-        margin-top: 220px;
-
-        .top-rotated {
-          position: absolute;
-          z-index: 10;
-          left: -5%;
-          text-align: center;
-          top: -37px;
-          background: linear-gradient(to top, #fbfdff 23%, #f4f6f8 77%);
-          height: 200px;
-          min-width: 115%;
-          max-width: 180%;
-
-          a.scroll-down {
-            display: block;
-            margin: -65px auto;
-            width: 130px;
-          }
-        }
-      }
-
-
-      .higher-grounds-content {
-        text-align: center;
-        padding: 170px 0 150px;
-
-        .higher-grounds-title {
-          font-family: "NeueHaasUnicaExtraBold";
-
-          font-size: 40px;
-          line-height: 63px;
-          color: #8809ff;
-          text-transform: uppercase;
-
-        }
-
-        .higher-grounds-text {
-          font-family: 'Open Sans', sans-serif;
-          font-size: 16px;
-          line-height: 26px;
-          color: #282828;
-          padding-top: 30px;
-        }
-      }
-
-      .higher-grounds-item {
-        max-width: 70%;
-        margin: 0 auto;
-
-        .higher-grounds-item-img {
-          width: 100%;
-        }
-
-        .higher-grounds-item-title {
-          font-family: "NeueHaasUnicaExtraBold";
-          font-size: 30px;
-          line-height: 63px;
-          color: #0e0e0e;
-          text-align: center;
-          text-transform: uppercase;
-        }
-
-        .higher-grounds-item-text {
-          font-family: 'Open Sans', sans-serif;
-          font-size: 16px;
-          line-height: 26px;
-          //padding-top: 25px;
-          color: #282828;
-        }
-      }
-    }
-  }
-
-  .bg-t-3 {
-    .artists-block {
-      background-color: #fbfdff;
-
-      .artist-item {
-        .artist-item-title {
-          text-transform: uppercase;
-          font-family: "NeueHaasUnicaExtraBold";
-          font-size: 40px;
-          color: #8809ff;
-          padding-bottom: 60px;
-
-        }
-
-        .artist-item-img {
-          width: 100%;
-        }
-
-        .custom-align-items {
-          align-items: flex-end;
-
-        }
-
-        .artist-item-text {
-          font-family: 'Open Sans', sans-serif;
-          font-size: 16px;
-          line-height: 26px;
-
-          color: #282828;
-          padding-top: 60px;
-          max-width: 80%;
-          z-index: 1000;
-          top: 0;
-          left: 0;
-        }
-
-        .artist-item-btn-group {
-          font-family: 'Open Sans', sans-serif;
-
-          width: 80%;
-          display: inline-flex;
-
-          button {
-            &.get-started {
-              margin-right: 20px;
-            }
-          }
-
-        }
-      }
-
-      .artist-items-small {
-        .artist-item-small-img {
-          width: 75%;
-          box-shadow: 0 10px 10px 3px rgba(28, 28, 28, 0.17);
-          margin: 0 50px 50px 0;
-        }
-      }
-
-      overflow: hidden;
-
-      .bottom-rotated-rel {
-        width: 100%;
-        height: 21px;
-        position: relative;
-        transform: rotate(-15deg);
-        margin: 0 auto;
-        margin-top: 130px;
-        margin-bottom: 125px;
-
-        .bottom-rotated {
-          position: absolute;
-          z-index: 0;
-          left: -5%;
-          text-align: center;
-          top: -240px;
-          background: linear-gradient(to top, #fbfdff00 7%, #f4f6f8 37%);
-
-          height: 250px;
-          min-width: 120%;
-          max-width: 180%
-
-        }
-      }
-
-    }
-  }
-
-  .bg-t-4 {
-    padding-top: 150px;
-
-    .dashboard {
-
-      .top-150 {
-        top: -150px;
-      }
-
-      .bg-t-41 {
-        background-image: url(../img/dashboard-bg.png);
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: contain;
-        position: absolute;
-        z-index: 100;
-        width: 772px;
-        height: 827px;
-        top: -700px;
-        right: 50%;
-
-      }
-
-      .dashboard-left {
-        position: absolute;
-        z-index: 100;
-
-        .mac {
-          //position: absolute;
-          //z-index: 105;
-          width: 100%;
-          background-repeat: no-repeat;
-          background-position: right center;
-
-        }
-
-      }
-
-      .dashboard-content {
-        padding-left: 60px;
-
-        .dashboard-title {
-          font-family: "NeueHaasUnicaExtraBold";
-          font-size: 40px;
-          color: #8809ff;
-          text-transform: uppercase;
-          padding-bottom: 30px;
-        }
-
-        .dashboard-text {
-          font-family: 'Open Sans', sans-serif;
-
-
-          font-size: 16px;
-          line-height: 26px;
-          color: #282828;
-          padding-bottom: 25px;
-        }
-      }
-    }
-  }
-
-  .bg-t-5 {
-    background-image: url(../img/buttom-bg.png);
-    background-position: center 80%;
-    background-repeat: no-repeat;
-    background-size: contain;
-
-    .features {
-      padding: 350px 0 60px 0;
-
-      .features-content {
-        text-align: center;
-
-        .features-title {
-          font-family: "NeueHaasUnicaExtraBold";
-          font-size: 40px;
-          line-height: 63px;
-          text-transform: uppercase;
-          color: #8809ff;
-          padding-bottom: 30px;
-        }
-
-        .features-text {
-          font-family: 'Open Sans', sans-serif;
-          font-size: 16px;
-          line-height: 26px;
-          color: #1c1c1c;
-
-        }
-      }
-
-      .features-item {
-        background: #fff;
-        text-align: center;
-        border-radius: 10px;
-        box-shadow: 16px 0 30px rgba(77, 77, 77, 0.07);
-        margin: 20px 35px;
-        padding: 35px 20px;
-        //min-width: 320px;
-
-        .features-item-text {
-          font-family: 'Open Sans', sans-serif;
-          font-size: 16px;
-          line-height: 26px;
-          color: #282828;
-          padding-top: 20px;
-        }
-
-        .features-item-img {
-
-        }
-      }
 
     }
   }
@@ -518,6 +190,7 @@ body {
       top: -50%;
       z-index: -10;
       transform: translate(-3%, 0);
+
       img {
         height: 100%;
       }

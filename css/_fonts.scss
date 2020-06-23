@@ -31,3 +31,8 @@
 }
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css");
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css');
+  //src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css') format('embedded-opentype'), url('../Font/fontawesome-webfont.woff?v=3.2.1') format('woff'), url('../Font/fontawesome-webfont.ttf?v=3.2.1') format('truetype'), url('../Font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg');
+}

@@ -26,6 +26,10 @@
   src: url("fonts/NeueHaasUnica/Regular/NeueHaasUnica-Regular.woff") format("woff");
   src: url("fonts/NeueHaasUnica/Regular/NeueHaasUnica-Regular.woff2") format("woff2");
 }
+@font-face {
+  font-family: "FontAwesome";
+  src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css");
+}
 button {
   outline: none !important;
   cursor: pointer;
