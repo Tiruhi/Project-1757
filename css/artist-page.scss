@@ -1,0 +1,325 @@
+.w-80p {
+  width: 80%;
+}
+
+.w-20p {
+  //width: 20%;
+}
+
+.text-purple {
+  color: #9b0de7;
+}
+
+.dark-purple {
+  color: #28042b;
+}
+
+.item-dashboard {
+  padding: 7px 40px;
+  max-height: 50px;
+  margin-right: 15px;
+}
+
+.item-footer {
+  background-color: #29042c;
+  margin-top: -15px;
+  margin-left: -15px;
+
+
+  .item-footer-content {
+    background-image: url(../img/dashboard-page-bg.png);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+
+    .item-footer-logo {
+      margin: 15px auto 30px;
+
+      img {
+        margin-top: 30px;
+
+      }
+    }
+
+    .item-footer-text {
+      font-size: 18px;
+      padding-bottom: 40px;
+
+      a {
+        color: #9b0de7;
+      }
+    }
+  }
+}
+
+.item-left-block {
+  img {
+    max-width: 512px;
+    max-height: 514px;
+  }
+
+  h2.dark-purple {
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  h4.dark-purple {
+    padding-top: 10px;
+    font-size: 16px;
+  }
+
+  .subscribe-btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #00d95f;
+    color: #00d95f;
+    max-width: 151px;
+    border-radius: 20px;
+    height: 35px;
+    padding-left: 0;
+    line-height: 20px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+
+    i {
+      margin-right: 15px;
+      font-size: 35px;
+    }
+
+    &:hover, &:active, &:focus {
+      border-color: darken(#00d95f, 7%);
+      color: darken(#00d95f, 7%);;
+
+    }
+  }
+
+  .sample-text {
+    color: #353535;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .purple-text {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .follow-social-block {
+    a {
+      i {
+        width: 30px;
+        height: 30px;
+        font-size: 30px;
+      }
+
+      margin-right: 20px;
+
+      &.twitter {
+        color: #76a9ea;
+      }
+
+      &.facebook {
+        color: #475993;
+      }
+
+      &.instagram {
+        //color: #951fa1;
+        i {
+          color: transparent;
+          background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+          background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+          background-clip: text;
+          -webkit-background-clip: text;
+        }
+      }
+
+      &.linkedin {
+        color: #0077b7;
+      }
+
+      &.medium {
+        i {
+          &:before {
+            content: url("../img/medium-social.png");
+
+          }
+        }
+      }
+
+      &.pinterest {
+        color: #9f1121;
+      }
+
+      &.spotify {
+        color: #00d95f;
+      }
+
+      &.youtube {
+        color: #f61c0d;
+      }
+    }
+
+  }
+
+  form {
+    display: inherit;
+
+    .follow-email {
+      border-color: transparent;
+      background-color: #fff;
+      width: 100%;
+      padding: 16px;
+      box-shadow: 7px 0 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .go-btn {
+      margin-left: 20px;
+      border: transparent;
+      padding: 15px 30px;
+      border-radius: 50px;
+      font-size: 16px;
+      font-weight: bold;
+      width: 100%;
+    }
+  }
+
+  .tweet-block {
+    .tweet-header {
+      font-size: 16px;
+      margin-bottom: 10px;
+
+      .text-purple {
+        font-size: 16px;
+      }
+
+      h3.dark-purple {
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 0;
+      }
+    }
+
+    .tweet-body-wrap {
+      height: 400px;
+      overflow-y: scroll;
+
+
+      .tweet-body {
+        box-shadow: 7px 0 10px rgba(0, 0, 0, 0.05);
+
+        background-color: #fff;
+        padding-top: 12px;
+        padding-left: 12px;
+
+        .tweet-avatar {
+          width: 48px;
+          height: 48px;
+        }
+
+        .tweet-title {
+          font-weight: bold;
+          font-size: 14px;
+          margin-left: 8px;
+          margin-bottom: 0;
+        }
+
+        .tweet-subtitle {
+          font-size: 12px;
+          margin-left: 8px;
+          color: #737373;
+          margin-right: 20px;
+
+        }
+
+        .tweet-text {
+          max-width: 445px;
+          margin-left: 8px;
+          margin-top: 16px;
+          font-size: 16px;
+          color: #343434;
+
+        }
+
+        .like-share {
+          .like, .share {
+            i {
+              margin-right: 8px;
+              font-size: 16px;
+              color: #343434;
+
+            }
+          }
+
+        }
+
+        .time {
+          color: #7e7e7e;
+          font-size: 12px;
+          margin-right: 20px;
+        }
+      }
+    }
+
+  }
+}
+
+.item-right-block {
+
+  .disc-wrap {
+    display: flex;
+    flex-wrap: wrap;
+
+    .disc-link {
+      width: 270px;
+      height: 270px;
+      margin: 5px;
+
+      &:hover {
+        opacity: .7;
+        transition: opacity 0.5s;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e8e8e8;
+
+  box-shadow: inset 0 0 5px #e8e8e8;
+  border-radius: 10px;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #cc05ea;
+  border-radius: 10px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #9c0de7;
+}
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
