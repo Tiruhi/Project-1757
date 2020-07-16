@@ -1,0 +1,52 @@
+/*start grid layout */
+.item-header {
+  grid-area: header;
+}
+
+.item-sidebar {
+  grid-area: sidebar;
+}
+
+.item-dashboard {
+  grid-area: dashboard;
+}
+
+.item-big-title {
+  grid-area: big-title;
+}
+
+.item-option-block {
+  grid-area: option-block;
+}
+
+.item-footer {
+  grid-area: footer;
+}
+
+.container-grid {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-rows: auto 50px 50px minmax(100px, 1fr) 50px minmax(100px, auto);
+  grid-template-areas: "header header header header header" "sidebar dashboard dashboard dashboard dashboard" "sidebar big-title big-title big-title big-title" "sidebar option-block option-block option-block option-block" "sidebar footer footer footer footer";
+}
+
+.grid-item {
+  background-color: #fff;
+  box-shadow: 7px 0 10px rgba(0, 0, 0, 0.05);
+}
+
+/*end grid layout*/
+.item-header {
+  background-color: #fff;
+}
+
+.item-sidebar {
+  background-image: url("../img/left-sidebar-bg.png");
+  background-size: cover;
+}
+
+.item-big-title {
+  background-image: url("../img/purple-horisontal-bg.png");
+}
+
+/*# sourceMappingURL=grid-layout-mailing-list.css.map */

@@ -287,6 +287,25 @@
     }
 
   }
+
+  .item-option-block {
+    form {
+      .form-row {
+        .btn-group {
+          .exp-btn {
+            margin: 0 0 30px 0;
+            font-size: 15px;
+            padding: 15px 20px;
+            &:before {
+              margin-right: 5px;
+            }
+
+          }
+        }
+      }
+    }
+  }
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -400,6 +419,7 @@
     > div {
       flex-wrap: wrap;
       align-content: start;
+
       div {
         margin-top: 15px;
         width: 100%;

@@ -1,0 +1,57 @@
+/*start grid layout */
+.item-header {
+  grid-area: header;
+}
+
+.item-sidebar {
+  grid-area: sidebar;
+}
+
+.item-dashboard {
+  grid-area: dashboard;
+}
+
+.item-content {
+  grid-area: content;
+}
+
+.item-footer {
+  grid-area: footer;
+}
+
+.item-view-profile {
+  grid-area: view-profile;
+}
+
+.item-edit-profile {
+  grid-area: edit-profile;
+}
+
+.container-grid {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-areas: "header header header header header" "sidebar dashboard dashboard dashboard dashboard" "sidebar content content content content" "sidebar footer footer footer footer";
+}
+
+.grid-item {
+  background-color: #fff;
+  box-shadow: 7px 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.item-content {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-areas: "edit-profile edit-profile edit-profile edit-profile edit-profile view-profile view-profile";
+}
+
+/*end grid layout*/
+.item-header {
+  background-color: #fff;
+}
+
+.item-sidebar {
+  background-image: url("../img/left-sidebar-bg.png");
+  background-size: cover;
+}
+
+/*# sourceMappingURL=grid-layout-adv-options.css.map */
