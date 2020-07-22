@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="59e25de2-e001-4db5-8809-5e24c7293147" name="Default Changelist" comment="add mailing-list page width responsive">
+      <change afterPath="$PROJECT_DIR$/analytics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/analytics.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/grid-layout-analytics.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/input-range-analytics-styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/range-analytics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/visits_views_chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/visits_views_chart1.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1cBJ3KHurE4UmFYIjQ5TdeMeDIl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tiruk\Desktop\Projects\Project-1757\js" />
+      <recent name="C:\Users\Tiruk\Desktop\Projects\Project-1757\css" />
+      <recent name="C:\Users\Tiruk\Desktop\Projects\Project-1757" />
+      <recent name="C:\Users\Tiruk\Desktop\Projects\Project-1757\img" />
+      <recent name="C:\Users\Tiruk\Desktop\Projects\Project-1757\js\JQVMAP" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tiruk\Desktop\Projects\Project-1757" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59e25de2-e001-4db5-8809-5e24c7293147" name="Default Changelist" comment="" />
+      <created>1589995852578</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589995852578</updated>
+      <workItem from="1589995858867" duration="182000" />
+      <workItem from="1590041669836" duration="20857000" />
+      <workItem from="1590127789544" duration="21490000" />
+      <workItem from="1590389199218" duration="21822000" />
+      <workItem from="1590441798212" duration="2010000" />
+      <workItem from="1590474588286" duration="24461000" />
+      <workItem from="1590559022045" duration="18088000" />
+      <workItem from="1590692592139" duration="1064000" />
+      <workItem from="1590732148162" duration="26210000" />
+      <workItem from="1590989865949" duration="32239000" />
+      <workItem from="1591252402582" duration="6759000" />
+      <workItem from="1591260236250" duration="10247000" />
+      <workItem from="1591560102980" duration="78612000" />
+      <workItem from="1591814317860" duration="650000" />
+      <workItem from="1591899697480" duration="2238000" />
+      <workItem from="1591946590454" duration="5624000" />
+      <workItem from="1592337577316" duration="1670000" />
+      <workItem from="1592377359179" duration="21551000" />
+      <workItem from="1592400777573" duration="16356000" />
+      <workItem from="1592464719824" duration="53000" />
+      <workItem from="1592699074021" duration="820000" />
+      <workItem from="1592827154588" duration="47581000" />
+      <workItem from="1592985579512" duration="59000" />
+      <workItem from="1593286105496" duration="2369000" />
+      <workItem from="1593412206185" duration="945000" />
+      <workItem from="1593437810051" duration="23425000" />
+      <workItem from="1593504003423" duration="90000" />
+      <workItem from="1593938046372" duration="25520000" />
+      <workItem from="1594108213930" duration="94000" />
+      <workItem from="1594147291297" duration="894000" />
+      <workItem from="1594476802244" duration="17636000" />
+      <workItem from="1594626757554" duration="4259000" />
+      <workItem from="1594718652629" duration="11706000" />
+      <workItem from="1594754986964" duration="9000" />
+      <workItem from="1594805163228" duration="3634000" />
+      <workItem from="1594892029820" duration="7843000" />
+      <workItem from="1594978624390" duration="3884000" />
+      <workItem from="1595231110068" duration="10723000" />
+      <workItem from="1595266239037" duration="8181000" />
+      <workItem from="1595342091414" duration="8033000" />
+      <workItem from="1595401314916" duration="610000" />
+    </task>
+    <task id="LOCAL-00001" summary="add responcive design">
+      <created>1590136789570</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590136789570</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add signup page">
+      <created>1590481768621</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590481768622</updated>
+    </task>
+    <task id="LOCAL-00003" summary="set people-link circle img&#10;fix select-option padding&#10;delete body selector">
+      <created>1590489284877</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590489284877</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add dashboard page desktop version">
+      <created>1591789375742</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591789375742</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add signin page with adaptive">
+      <created>1591963302026</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591963302026</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add smartlinks page with adaptive&#10;add dashboard page adaptive design">
+      <created>1592419817561</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592419817561</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add smartlinks-add page">
+      <created>1592950176934</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592950176934</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add artist page only desktop version">
+      <created>1593468013290</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593468013292</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add profile page only desktop version">
+      <created>1594077243916</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1594077243916</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add billing page width responsive">
+      <created>1594630164033</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1594630164033</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add mailing-list page width responsive">
+      <created>1594892813134</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1594892813134</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="add responcive design" />
+    <MESSAGE value="add signup page" />
+    <MESSAGE value="set people-link circle img&#10;fix select-option padding&#10;delete body selector" />
+    <MESSAGE value="add dashboard page desktop version" />
+    <MESSAGE value="add signin page with adaptive" />
+    <MESSAGE value="add smartlinks page with adaptive&#10;add dashboard page adaptive design" />
+    <MESSAGE value="add smartlinks-add page" />
+    <MESSAGE value="add artist page only desktop version" />
+    <MESSAGE value="add profile page only desktop version" />
+    <MESSAGE value="add billing page width responsive" />
+    <MESSAGE value="add mailing-list page width responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="add mailing-list page width responsive" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590581643870">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1590581643870" />
+    <state x="351" y="142" key="EditFileWatcherDialog" timestamp="1589995907197">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="351" y="142" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1589995907197" />
+    <state x="463" y="118" width="476" height="489" key="FileChooserDialogImpl" timestamp="1595342129550">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" width="476" height="489" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1595342129550" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591944735200" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1593467949946">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593467949946" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1594894191283">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1594894191283" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591963338488" />
+    <state x="282" y="122" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1590147698564">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="282" y="122" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1590147698564" />
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1595401315825">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1595401315825" />
+    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592943479302">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1592943479302" />
+    <state x="1589" y="0" width="878" height="716" key="dock-window-1" timestamp="1595277173301">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1589" y="0" width="878" height="716" key="dock-window-1/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1595277173301" />
+    <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1591789222915">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1591789222915" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/visits_views_chart.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/visits_views_chart.js</url>
+          <line>128</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/visits_views_chart.js</url>
+          <line>339</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
