@@ -29,10 +29,10 @@
     <link rel="shortcut icon" type="image/ico" href="img/favicon.ico"/>
     <link rel="stylesheet" type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/brands.min.css">
-    <link rel="stylesheet" type="text/css" href="css/grid-layout-profile.css">
+    <link rel="stylesheet" type="text/css" href="css/grid-layout-adv-options.css">
     <link rel="stylesheet" type="text/css" href="css/general-styles.css">
     <link rel="stylesheet" type="text/css" href="css/dashboard.css">
-    <link rel="stylesheet" type="text/css" href="css/profile.css">
+    <link rel="stylesheet" type="text/css" href="css/adv-options.css">
     <title>beatlify</title>
 
 </head>
@@ -171,7 +171,7 @@
 
     <!--start content-->
     <div class="grid-item item-dashboard d-flex">
-        <h1>Profile</h1>
+        <h1>Advanced Options</h1>
         <div class="btn-group ml-auto">
             <a class="page" href="">Home</a>
             <span class="slash">/</span>
@@ -180,235 +180,89 @@
     </div>
 
     <div class="item-content">
-        <div class="item-edit-profile">
+        <div class="item-adv-options-content">
             <div class="title">
                 <h2 class="h2">
-                    Edit Profile
+                    Option
                 </h2>
             </div>
+            <!--start adv-options form-->
             <form class="form">
-                <!--start main info block-->
+                    <div class="form-group">
+                        <input class="form-check-input" type="checkbox" id="remove_link">
+                        <label for="remove_link" class="checker"></label>
+                        <label class="form-check-label check-label" for="remove_link">
+                            Remove "Beatlify" Link from landing page (Premium only)
+                        </label>
+                    </div>
 
                 <div class="form-row">
                     <h3 class="h3">
-                        Main Info
+                        Affiliate Programs
                     </h3>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="input_name">Artist Name *</label>
-                        <input type="text" class="form-control" id="input_name">
+                        <label for="input_apple">Apple Music / ITunes</label>
+                        <div class="input-group">
+                            <span class="input-before">at=</span>
+                        <input type="text" class="form-control" id="input_apple">
+                        </div>
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="input_email">Email Address *</label>
-                        <input type="email" class="form-control" id="input_email">
+                        <label for="input_amazon">Amazon</label>
+                        <div class="input-group">
+                            <span class="input-before">tag=</span>
+                        <input type="text" class="form-control" id="input_amazon">
+                        </div>
                     </div>
                 </div>
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="input_spotify_URL">Spotify URL</label>
-                        <input type="url" class="form-control" id="input_spotify_URL"
-                               placeholder="https://open.spotify.com/">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label for="input_deezer_URL">Deezer URL</label>
-                        <input type="url" class="form-control" id="input_deezer_URL" placeholder="https://deezer.com/">
-                    </div>
-                </div>
+
                 <div class="form-row">
                     <span class="help-text">
                          WE WILL USE YOUR PROFILE LINKS TO ASK YOUR FANS TO FOLLOW YOU EACH TIME THEY ADD YOUR MUSIC TO A PLAYLIST.
                     </span>
                 </div>
-                <!--end main info block-->
 
-                <!--start social block-->
 
                 <div class="form-row">
                     <h3 class="h3">
-                        Social Links
+                        Remarkening & Analytics
                     </h3>
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="input_fb_URL">Facebook</label>
-                        <input type="url" class="form-control" id="input_fb_URL" placeholder="https://facebook.com/">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label for="input_twitter_URL">Twitter</label>
-                        <input type="url" class="form-control" id="input_twitter_URL"
-                               placeholder="https://twitter.com/">
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="input_insta_URL">Instagram</label>
-                        <input type="url" class="form-control" id="input_insta_URL"
-                               placeholder="https://open.spotify.com/">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label for="input_youtube_URL">Youtube</label>
-                        <input type="url" class="form-control" id="input_youtube_URL"
-                               placeholder="https://youtube.com/">
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="input_soundcloud_URL">Soundcloud</label>
-                        <input type="url" class="form-control" id="input_soundcloud_URL"
-                               placeholder="https://soundcloud.com/">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label for="input_website_URL">Official Website</label>
-                        <input type="url" class="form-control" id="input_website_URL"
-                               placeholder="https://artistwebsite.com/">
-                    </div>
-                </div>
-                <div class="form-row">
-                    <span class="help-text">
+                        <label for="input_fb_px_id">Facebook Pixel</label>
+                        <div class="input-group">
+                            <span class="input-before">Pixel ID</span>
+                        <input type="url" class="form-control" id="input_fb_px_id" >
+                        </div>
+                        <span class="help-text mt-3">
                         THE SOCIAL LINKS ABOVE WILL BE INCLUDED ON EACH OF YOUR SMART LINKS AND ALSO ON YOUR ARTIST OR LABEL PAGE.
                     </span>
-                </div>
-                <!--end social block-->
-
-                <!--start avatar block-->
-                <div class="row no-gutters">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="form-row">
-                            <h3 class="h3">
-                                Avatar
-                            </h3>
-                        </div>
-
-                        <div class="form-row">
-                            <div class="form-group d-flex align-items-center">
-
-                                <div id="drop-area" class="upload-btn-wrapper profile-rows">
-
-                                    <button type="button" class="btn"><img src="img/upload.png" alt=""></button>
-                                    <input type="file" id="files" name="files" class="inputfile"
-                                           placeholder="Drop your Avatar here" multiple=""
-                                           onchange="handleFiles(this.files)">
-                                    <label for="files" class="upload-label">Drop your Avatar here</label>
-
-                                </div>
-                                <span class="recommend-text">Recommended minimum size: 570X570</span>
-
-                            </div>
-                        </div>
-
-
                     </div>
-
-                    <div class="col-lg-6 col-md-6">
-                        <div class="form-row">
-                            <h3 class="h3">
-                                Change Password
-                            </h3>
+                    <div class="form-group col-md-6">
+                        <label for="input_analytics_id">Google Analytics</label>
+                        <div class="input-group">
+                            <span class="input-before">Analytics ID</span>
+                        <input type="url" class="form-control" id="input_analytics_id">
                         </div>
-
-                        <div class="form-row">
-                            <div class="form-group w-99">
-                                <label for="input_pass">Password</label>
-                                <input type="password" class="form-control" id="input_pass"
-                                       placeholder="* * * * * * *" style="letter-spacing: .6em">
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group w-99">
-                                <label for="input_conf_pass">Repeat Password</label>
-                                <input type="password" class="form-control" id="input_conf_pass"
-                                       placeholder="* * * * * * *">
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-
-                <div class="form-row">
-                    <span class="help-text">
+                        <span class="help-text mt-3">
                         THE SOCIAL LINKS ABOVE WILL BE INCLUDED ON EACH OF YOUR SMART LINKS AND ALSO ON YOUR ARTIST OR LABEL PAGE.
                     </span>
-                </div>
-                <!--end avatar block-->
-                <!--start avatar-checks block-->
-
-                <div class="form-row">
-                    <h3 class="h3 pb-5">
-                        Avatar
-                    </h3>
-                </div>
-
-                <div class="form-group">
-                    <input class="form-check-input" type="checkbox" id="news_check">
-                    <label for="news_check" class="checker"></label>
-                    <label class="form-check-label check-label" for="news_check">
-                        I WANT TO RECEIVE NEWS FROM SOUNDPLATE.
-                    </label>
-                </div>
-                <div class="form-group">
-                    <input class="form-check-input" type="checkbox" id="show_social_check">
-                    <label for="show_social_check" class="checker"></label>
-
-                    <label class="form-check-label check-label" for="show_social_check">
-                        DONT'T SHOW SOCIAL MEDIA ICONS ON MY SMART LINKS
-                    </label>
-                </div>
-                <div class="form-group">
-                    <input class="form-check-input" type="checkbox" id="show_popup_check">
-                    <label for="show_popup_check" class="checker"></label>
-
-                    <label class="form-check-label check-label" for="show_popup_check">
-                        DON'T ALLOW LATEST EVENT TO SHOW AS A POPUP WINDOW ON SMART LINKS (THIS WILL ONLY LIST
-                        UPCOMING EVENTS AS LINKS ON THE LANDING PAGE.)
-                    </label>
+                    </div>
                 </div>
 
 
-                <div class="form-group">
-
-                    <label class="time-zone" for="select_time_zone">
-                        Your primary time zone
-                    </label>
-                    <select class="js-example-basic-single" name="state" id="select_time_zone">
-                        <option value="AL">Alabama</option>
-                        <option value="WY">Wyoming</option>
-                    </select>
-
-                </div>
-
-                <!--end avatar-checks block-->
                 <div class="form-submit text-center">
-                    <button type="submit" class="btn submit btn-width-bg">Update Profile</button>
+                    <button type="submit" class="btn submit btn-width-bg">Save</button>
 
                 </div>
             </form>
+            <!--end adv-options form-->
+
         </div>
-        <div class="item-view-profile">
 
-            <div class="view-profile-avatar">
-                <img src="img/view-profile-avatar.png" alt="Avatar">
-            </div>
-            <h3 class="view-profile-name">Full User Name</h3>
-            <h2 class="view-profile-www">https:websiteartist.com/</h2>
-            <div class="view-profile-social">
-
-                    <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="facebook"><i class="fab fa-facebook-square"></i></a>
-                    <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
-                    <a href="#" class="medium"><i class=""></i></a>
-
-            </div>
-            <div class="view-profile-btn">
-                <button type="button" class="btn pl-3 pr-3 btn-width-bg ">Update Profile</button>
-            </div>
-            <div class="view-profile-help-text text-center w-100">
-                If you don't want to use our services any more you can close
-                your account <a href="#" class="purple">here</a>.
-            </div>
-        </div>
 
     </div>
 

@@ -19,14 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59e25de2-e001-4db5-8809-5e24c7293147" name="Default Changelist" comment="add mailing-list page width responsive">
-      <change afterPath="$PROJECT_DIR$/analytics.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/analytics.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/grid-layout-analytics.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/input-range-analytics-styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/range-analytics.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/visits_views_chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/visits_views_chart1.js" afterDir="false" />
+    <list default="true" id="59e25de2-e001-4db5-8809-5e24c7293147" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adv-options.html" beforeDir="false" afterPath="$PROJECT_DIR$/adv-options.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/adv-options.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/adv-options.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/adv-options.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/adv-options.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/adv-options.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/adv-options.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/grid-layout-adv-options.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-adv-options.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/grid-layout-adv-options.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-adv-options.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/grid-layout-adv-options.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-adv-options.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/grid-layout-analytics.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-analytics.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/grid-layout-analytics.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-analytics.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,15 +64,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tiruk\Desktop\Projects\Project-1757" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Tiruk\Desktop\Projects\Project-1757\js" />
       <recent name="C:\Users\Tiruk\Desktop\Projects\Project-1757\css" />
       <recent name="C:\Users\Tiruk\Desktop\Projects\Project-1757" />
       <recent name="C:\Users\Tiruk\Desktop\Projects\Project-1757\img" />
       <recent name="C:\Users\Tiruk\Desktop\Projects\Project-1757\js\JQVMAP" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Tiruk\Desktop\Projects\Project-1757" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -134,7 +137,10 @@
       <workItem from="1595231110068" duration="10723000" />
       <workItem from="1595266239037" duration="8181000" />
       <workItem from="1595342091414" duration="8033000" />
-      <workItem from="1595401314916" duration="610000" />
+      <workItem from="1595401314916" duration="1268000" />
+      <workItem from="1595404697835" duration="1467000" />
+      <workItem from="1595676956813" duration="6179000" />
+      <workItem from="1595831149641" duration="5428000" />
     </task>
     <task id="LOCAL-00001" summary="add responcive design">
       <created>1590136789570</created>
@@ -213,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594892813134</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add analytics page width responsive">
+      <created>1595403642555</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1595403642555</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,39 +259,44 @@
     <MESSAGE value="add profile page only desktop version" />
     <MESSAGE value="add billing page width responsive" />
     <MESSAGE value="add mailing-list page width responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="add mailing-list page width responsive" />
+    <MESSAGE value="add analytics page width responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="add analytics page width responsive" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590581643870">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1590581643870" />
+    <state x="306" y="0" key="CommitChangelistDialog2" timestamp="1595403639671">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="306" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1595403639671" />
     <state x="351" y="142" key="EditFileWatcherDialog" timestamp="1589995907197">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="351" y="142" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1589995907197" />
-    <state x="463" y="118" width="476" height="489" key="FileChooserDialogImpl" timestamp="1595342129550">
+    <state x="463" y="118" width="476" height="489" key="FileChooserDialogImpl" timestamp="1595404142215">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" width="476" height="489" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1595342129550" />
+    <state x="463" y="118" width="476" height="489" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1595404142215" />
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591944735200" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1593467949946">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593467949946" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1594894191283">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1595403653156">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1594894191283" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1595403653156" />
     <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591963338488" />
     <state x="282" y="122" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1590147698564">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="282" y="122" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1590147698564" />
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1595401315825">
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1595833048608">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1595401315825" />
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1595833048608" />
     <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592943479302">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

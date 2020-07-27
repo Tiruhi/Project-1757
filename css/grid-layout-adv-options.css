@@ -19,17 +19,14 @@
   grid-area: footer;
 }
 
-.item-view-profile {
-  grid-area: view-profile;
-}
-
-.item-edit-profile {
-  grid-area: edit-profile;
+.item-adv-options-content {
+  grid-area: adv-options;
 }
 
 .container-grid {
   display: grid;
   grid-gap: 15px;
+  grid-template-rows: auto 50px minmax(100px, 1fr) auto;
   grid-template-areas: "header header header header header" "sidebar dashboard dashboard dashboard dashboard" "sidebar content content content content" "sidebar footer footer footer footer";
 }
 
@@ -41,7 +38,7 @@
 .item-content {
   display: grid;
   grid-gap: 15px;
-  grid-template-areas: "edit-profile edit-profile edit-profile edit-profile edit-profile view-profile view-profile";
+  grid-template-areas: "adv-options";
 }
 
 /*end grid layout*/

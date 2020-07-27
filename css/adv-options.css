@@ -8,6 +8,11 @@
   margin-right: 15px;
 }
 
+.item-content {
+  margin-right: 15px;
+  padding-bottom: 160px;
+}
+
 .item-footer {
   background-color: #29042c;
   margin-top: -15px;
@@ -35,49 +40,57 @@
   color: #9b0de7;
 }
 
-.item-edit-profile {
+.item-adv-options-content {
   background-color: #fff;
   box-shadow: 7px 0 10px rgba(0, 0, 0, 0.07);
 }
-.item-edit-profile .title {
+.item-adv-options-content .title {
   background-image: url("../img/purple-horisontal-bg.png");
   text-align: center;
   max-height: 40px;
   min-height: 40px;
 }
-.item-edit-profile .title .h2 {
+.item-adv-options-content .title .h2 {
   color: #fff;
   font-size: 30px;
   font-weight: bold;
 }
-.item-edit-profile .form {
-  padding-left: 20px;
+.item-adv-options-content .form {
+  padding-left: 40px;
+  padding-top: 30px;
   padding-right: 20px;
 }
-.item-edit-profile .form .form-row .h3 {
+.item-adv-options-content .form .form-row .h3 {
   font-size: 20px;
   font-weight: bold;
   color: #270429;
-  padding: 16px 0;
+  padding: 16px 0 0;
+  margin-top: 12px;
+  margin-bottom: 0;
 }
-.item-edit-profile .form .form-row .form-group label {
+.item-adv-options-content .form .form-row .form-group {
+  padding-right: 60px;
+}
+.item-adv-options-content .form .form-row .form-group label {
   font-size: 14px;
   font-weight: bold;
   color: #161616;
   padding-top: 20px;
 }
-.item-edit-profile .form .form-row .form-group input {
+.item-adv-options-content .form .form-row .form-group input {
   border-radius: 0;
   width: 97%;
   padding-left: 15px;
+  background-color: #e8e8e8;
+  border: transparent;
 }
-.item-edit-profile .form .form-row .help-text {
+.item-adv-options-content .form .form-row .help-text {
   font-size: 12px;
   text-transform: uppercase;
   color: #585858;
-  width: 100%;
+  width: 99.5%;
   padding: 6px 0 6px 10px;
-  margin-right: 23px;
+  margin-right: 60px;
   margin-left: 3px;
   border-width: 1px;
   border-style: solid;
@@ -86,7 +99,7 @@
   display: flex;
   align-items: center;
 }
-.item-edit-profile .form .form-row .help-text:before {
+.item-adv-options-content .form .form-row .help-text:before {
   content: url("../img/question.png");
   width: 20px;
   height: 20px;
@@ -94,93 +107,6 @@
   display: flex;
   flex-flow: wrap;
   margin-right: 8px;
-}
-.item-edit-profile .form .time-zone {
-  font-size: 20px;
-  font-weight: bold;
-  color: #270429;
-  padding: 16px 0;
-}
-
-.item-view-profile {
-  background-color: #ffffff;
-  text-align: center;
-  height: 100%;
-  box-shadow: 7px 0 10px rgba(0, 0, 0, 0.07);
-  margin-right: 15px;
-  max-height: 480px;
-  max-width: 434px;
-}
-.item-view-profile .view-profile-avatar {
-  background: url("../img/view-profile-top-bg.png") top center no-repeat;
-  margin: auto;
-}
-.item-view-profile .view-profile-avatar img {
-  padding-top: 72px;
-}
-.item-view-profile .view-profile-name {
-  font-size: 18px;
-  color: #270429;
-  font-weight: bold;
-  padding-top: 20px;
-}
-.item-view-profile .view-profile-www {
-  font-size: 12px;
-  color: #585858;
-  padding: 16px 0;
-}
-.item-view-profile .view-profile-social {
-  font-size: 12px;
-  text-transform: uppercase;
-  color: #585858;
-  width: 80%;
-  margin: auto;
-  border-width: 1px;
-  border-style: solid;
-  border-image: linear-gradient(to right, #e301ec, #920fe6);
-  border-image-slice: 1;
-  border-top: transparent;
-  border-left: transparent;
-  border-right: transparent;
-}
-.item-view-profile .view-profile-social a {
-  margin-right: 15px;
-}
-.item-view-profile .view-profile-social a i {
-  width: 25px;
-  height: 25px;
-  font-size: 25px;
-}
-.item-view-profile .view-profile-social a.twitter {
-  color: #76a9ea;
-}
-.item-view-profile .view-profile-social a.facebook {
-  color: #475993;
-}
-.item-view-profile .view-profile-social a.instagram i {
-  color: transparent;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  background-clip: text;
-  -webkit-background-clip: text;
-}
-.item-view-profile .view-profile-social a.linkedin {
-  color: #0077b7;
-}
-.item-view-profile .view-profile-social a.medium i:before {
-  content: url("../img/medium-social.png");
-}
-.item-view-profile .view-profile-btn button.btn-width-bg {
-  font-weight: normal;
-  margin: 20px auto;
-}
-.item-view-profile .view-profile-btn button.btn-width-bg:hover, .item-view-profile .view-profile-btn button.btn-width-bg:active, .item-view-profile .view-profile-btn button.btn-width-bg:focus {
-  background: linear-gradient(to right, #cb01d3, #830dce);
-  color: #fff;
-}
-.item-view-profile .view-profile-help-text {
-  font-size: 12px;
-  padding: 0 40px;
 }
 
 .purple {
@@ -191,7 +117,7 @@
 }
 
 /*................start check_block..................*/
-#news_check, #show_social_check, #show_popup_check {
+#remove_link {
   display: none;
   vertical-align: middle;
 }
@@ -206,15 +132,14 @@
   vertical-align: middle;
 }
 
-#news_check:checked + .checker,
-#show_social_check:checked + .checker,
-#show_popup_check:checked + .checker {
+#remove_link:checked + .checker {
   background-position: right center;
 }
 
 .check-label {
   font-size: 14px;
-  color: #2f2f2f;
+  font-weight: bold;
+  color: #161616;
   margin-bottom: 12px;
   padding-left: 12px;
   vertical-align: middle;
@@ -223,47 +148,21 @@
 }
 
 /*................end check_block..................*/
-/*................ start drop-area block..................*/
-.upload-btn-wrapper {
-  border: transparent;
-  background-color: #e8e8e8;
-  border-radius: 10px;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 20px;
-  width: 170px;
-  height: 170px;
-}
-.upload-btn-wrapper button {
-  font-style: normal;
-  font-weight: 500;
+/*start INPUT's before block*/
+.input-before {
+  background-color: #fff;
+  color: #585858;
   font-size: 14px;
   text-align: center;
-  color: #3189ED;
-}
-.upload-btn-wrapper button img {
-  vertical-align: middle;
-  border-style: none;
-}
-.upload-btn-wrapper input[type=file] {
-  opacity: 0;
-  display: none;
-}
-.upload-btn-wrapper .upload-label {
-  text-align: center;
-  font-size: 12px !important;
-  color: #ce04ea !important;
-}
-
-.recommend-text {
-  font-size: 12px;
-  color: #585858;
+  padding-right: 20px;
   padding-left: 20px;
+  vertical-align: middle;
+  border: 1px solid #e8e8e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/*................end drop-area block..................*/
+/*end INPUT's before block*/
 
 /*# sourceMappingURL=adv-options.css.map */
