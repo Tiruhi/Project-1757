@@ -219,31 +219,4 @@
   width: 100%;
 }
 
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #e8e8e8;
-  box-shadow: inset 0 0 5px #e8e8e8;
-  border-radius: 10px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #cc05ea;
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #9c0de7;
-}
-
-body {
-  overflow-x: hidden;
-  /* Hide horizontal scrollbar */
-}
-
 /*# sourceMappingURL=artist-page.css.map */

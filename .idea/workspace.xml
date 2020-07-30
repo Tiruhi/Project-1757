@@ -21,15 +21,17 @@
   <component name="ChangeListManager">
     <list default="true" id="59e25de2-e001-4db5-8809-5e24c7293147" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adv-options.html" beforeDir="false" afterPath="$PROJECT_DIR$/adv-options.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/adv-options.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/adv-options.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/adv-options.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/adv-options.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/adv-options.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/adv-options.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid-layout-adv-options.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-adv-options.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid-layout-adv-options.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-adv-options.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid-layout-adv-options.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-adv-options.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid-layout-analytics.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-analytics.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid-layout-analytics.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-analytics.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-1757.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Project-1757.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/artist-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/artist-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/artist-page.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/artist-page.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/artist-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/artist-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/general-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/general-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/general-styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/general-styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/general-styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/general-styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/smartlinks-add.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/smartlinks-add.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/smartlinks-add.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/smartlinks-add.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/smartlinks-add.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/smartlinks-add.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartlinks-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/smartlinks-add.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,18 +63,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../script-app" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Tiruk\Desktop\Projects\Project-1757" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Tiruk\Desktop\Projects\Project-1757\js" />
       <recent name="C:\Users\Tiruk\Desktop\Projects\Project-1757\css" />
       <recent name="C:\Users\Tiruk\Desktop\Projects\Project-1757" />
       <recent name="C:\Users\Tiruk\Desktop\Projects\Project-1757\img" />
       <recent name="C:\Users\Tiruk\Desktop\Projects\Project-1757\js\JQVMAP" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tiruk\Desktop\Projects\Project-1757" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -140,7 +142,10 @@
       <workItem from="1595401314916" duration="1268000" />
       <workItem from="1595404697835" duration="1467000" />
       <workItem from="1595676956813" duration="6179000" />
-      <workItem from="1595831149641" duration="5428000" />
+      <workItem from="1595831149641" duration="6479000" />
+      <workItem from="1595918776828" duration="1729000" />
+      <workItem from="1595949403037" duration="621000" />
+      <workItem from="1596012285557" duration="13082000" />
     </task>
     <task id="LOCAL-00001" summary="add responcive design">
       <created>1590136789570</created>
@@ -275,10 +280,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="351" y="142" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1589995907197" />
-    <state x="463" y="118" width="476" height="489" key="FileChooserDialogImpl" timestamp="1595404142215">
+    <state x="463" y="118" width="476" height="489" key="FileChooserDialogImpl" timestamp="1595920249795">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" width="476" height="489" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1595404142215" />
+    <state x="463" y="118" width="476" height="489" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1595920249795" />
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591944735200" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1593467949946">
       <screen x="0" y="0" width="1366" height="728" />

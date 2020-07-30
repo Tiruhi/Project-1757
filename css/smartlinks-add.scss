@@ -301,9 +301,11 @@
         margin-bottom: 12px;
         vertical-align: middle;
       }
+
       .rec-size {
         margin-bottom: 18px;
       }
+
       .check-label {
         padding-left: 8px;
       }
@@ -349,4 +351,48 @@
 
     color: darken(#df02ed, 5%);
   }
+}
+
+.dropdown {
+  .dropdown-toggle {
+    text-align: center;
+
+    &:after {
+      display: inline-block;
+      margin-left: .255em;
+      vertical-align: middle;
+      content: "+";
+      border: transparent;
+    }
+
+    &:hover, &:active, &:focus {
+      background-image: linear-gradient(white, white), radial-gradient(circle at top left, #e301ec, #920fe6);
+    }
+  }
+
+  .dropdown-menu {
+
+    height: 200px;
+    overflow-y: scroll;
+
+    position: absolute !important;
+    top: -140% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+
+    min-width: 230px;
+
+    border: solid 1px transparent;
+    border-radius: 8px;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #e301ec, #920fe6);
+    padding-top: 0;
+    padding-bottom: 0;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+    .dropdown-item {
+      border-radius: 8px;
+    }
+  }
+
 }

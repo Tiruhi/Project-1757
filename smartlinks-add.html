@@ -171,7 +171,7 @@
 
     <!--start content-->
     <div class="grid-item item-dashboard d-flex">
-        <h1>Smartlinks</h1>
+        <h1 class="font-weight-bold">Create New Link</h1>
         <div class="btn-group ml-auto">
             <a class="page" href="">Home</a>
             <span class="slash">/</span>
@@ -221,7 +221,9 @@
                 <div class="form-group col-md-6">
                     <label for="input_date">Release Date *</label>
                     <input type="date" class="form-control w-75" id="input_date">
-                    <div class="help-text pt-1">Release date is required if you want to launch a <span class="purple">pre-save</span> campaign.</div>
+                    <div class="help-text pt-1">Release date is required if you want to launch a <span class="purple">pre-save</span>
+                        campaign.
+                    </div>
                 </div>
                 <div class="form-group col-md-6">
                     <label for="input_url">Custom Url (Premium Users Only)</label>
@@ -248,13 +250,17 @@
                 <div class="form-group col-md-6">
                     <label for="input_meta_title">Custom Meta Title</label>
                     <input type="text" class="form-control w-75" id="input_meta_title">
-                    <div class="help-text pt-1">This title is used when the link appears on social media & search engines.</div>
+                    <div class="help-text pt-1">This title is used when the link appears on social media & search
+                        engines.
+                    </div>
 
                 </div>
                 <div class="form-group col-md-6">
                     <label for="input_meta_desc">Custom Meta Description</label>
                     <input type="text" class="form-control w-75" id="input_meta_desc">
-                    <div class="help-text pt-1">This description is used when the link appears on social media & search engines.</div>
+                    <div class="help-text pt-1">This description is used when the link appears on social media & search
+                        engines.
+                    </div>
 
                 </div>
             </div>
@@ -299,7 +305,29 @@
                         </button>
                     </div>
 
-                    <button type="button" class="btn-width-border add-more-btn" id="add_more_btn">Add More +</button>
+<!--                    <button type="button" class="btn-width-border add-more-btn" id="add_more_btn">Add More +</button>-->
+
+                    <div class="add-more-wrap">
+                        <div class="dropdown d-flex align-content-center justify-content-center align-items-center">
+                            <button class="btn dropdown-toggle btn-width-border add-more-btn" type="button"
+                                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                Add More
+                            </button>
+                            <div class="dropdown-menu " aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Bandcamp</a>
+                                <a class="dropdown-item" href="#">Pandora</a>
+                                <a class="dropdown-item" href="#">iTunes</a>
+                                <a class="dropdown-item" href="#">Amazon Music</a>
+                                <a class="dropdown-item" href="#">YouTube</a>
+                                <a class="dropdown-item" href="#">YouTube Music</a>
+                                <a class="dropdown-item" href="#">Google Play</a>
+                                <a class="dropdown-item" href="#">Napster</a>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
 
             </div>
@@ -391,7 +419,7 @@
                             </label>
                         </div>
 
-                        <div class="form-group submit-wrap" >
+                        <div class="form-group submit-wrap">
                             <button type="submit" name="submit" id="submit" class="btn submit btn-width-bg"
                                     value="Save">
                                 Save
