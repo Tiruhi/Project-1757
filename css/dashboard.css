@@ -849,5 +849,18 @@ header .lang, header .avatar {
   }
 }
 /*end signup page media styles*/
+.item-sidebar {
+  position: relative;
+}
+.item-sidebar .item-sidebar-content {
+  position: absolute;
+  width: 100%;
+}
+.item-sidebar .sidebar-toggle {
+  display: none;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
 
 /*# sourceMappingURL=dashboard.css.map */

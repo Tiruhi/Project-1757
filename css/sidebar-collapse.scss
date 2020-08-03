@@ -1,0 +1,37 @@
+.item-sidebar {
+  position: relative;
+
+  .item-sidebar-content {
+    //display: flex;
+    position: absolute;
+    //left: 0;
+    width: 100%;
+  }
+
+  .sidebar-toggle {
+    display: none;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+
+    i {
+
+    }
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+  //.item-sidebar {
+  //
+  //  .item-sidebar-content {
+  //    left: -100%;
+  //  }
+  //
+  //  .sidebar-toggle {
+  //    display: block;
+  //  }
+  //}
+
+}

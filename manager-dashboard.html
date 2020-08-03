@@ -26,12 +26,18 @@
                 selectedColor: '#666666',
                 enableZoom: true,
                 showTooltip: true,
-                scaleColors: ['#C8EEFF', '#0071bb'],
+                scaleColors: ['#ba00ba', '#0071bb', '#0071bb', '#0071bb'],
                 values: sample_data,
                 normalizeFunction: 'polynomial',
                 responsive: true
             });
         });
+
+        /*jqvmap examples*/
+        /*https://codepen.io/skibbi/pen/KeZmBO*/
+        /*https://robertorocha.info/making-an-interactive-choropleth-map-with-jqvmap-and-geostats/*/
+        /*https://github.com/crisinmotion/jqvmap/blob/5bbc9afb959091e0f53151e6fea25c821b58a141/jquery.vmap.world-update.js*/
+        /*http://dataonline.bmkg.go.id/admin/asset/plugins/jqvmap/examples/js/*/
     </script>
     <!-- end  Map    -->
 
@@ -59,7 +65,7 @@
 
     <link rel="stylesheet" type="text/css" href="css/grid-layout.css">
     <link rel="stylesheet" type="text/css" href="css/dashboard.css">
-    <link rel="stylesheet" type="text/css" href="css/input-range-styles.css">
+    <link rel="stylesheet" type="text/css" href="css/input-range-manager-styles.css">
     <title>beatlify</title>
 
 </head>
@@ -134,9 +140,9 @@
     </div>
 
     <div class="grid-item item-sidebar" id="sidebar">
-        <a class="sidebar-toggle" id="s">
-            <i class="fas fa-bars text-white"></i>
-        </a>
+                <a class="sidebar-toggle" id="sidebarToggle">
+                    <i class="fas fa-bars text-white"></i>
+                </a>
         <!-- Sidebar navigation -->
         <div class=" justify-content-start item-sidebar-content">
 
@@ -200,9 +206,11 @@
                         <li class="left-navbar-link-wrap"><a href="#" class="waves-effect left-navbar-link">
                             <i class="far fa-user-circle"></i>Profile</a>
                         </li>
-<!--                        <li class="left-navbar-link-wrap"><a href="#" class="waves-effect left-navbar-link">-->
-<!--                            <i class="fas fa-file-alt"></i>Billing</a>-->
-<!--                        </li>-->
+
+                        <!--                        <li class="left-navbar-link-wrap"><a href="#" class="waves-effect left-navbar-link">-->
+                        <!--                            <i class="fas fa-file-alt"></i>Billing</a>-->
+                        <!--                        </li>-->
+
                         <li class="left-navbar-link-wrap"><a href="#" class="waves-effect left-navbar-link">
                             <i class="fas fa-sign-out-alt"></i>Log Out</a>
                         </li>
@@ -233,7 +241,7 @@
                     <span class="badge badge-danger badge-pill pull-right range-label-wrap"> <label for="range1"
                                                                                                     class="range-label">New</label></span>
 
-                    <input id="range1" name="range1" type="range" class="range" min="0" max="15" value="12">
+                    <input id="range1" name="range1" type="range" class="range" min="0" max="5000" value="4508">
                 </form>
 
 
@@ -301,7 +309,7 @@
                                                                                                       class="range-label"><img
                             src="img/range-circle-orange-img.png" alt=""></label></span>
 
-                        <input id="range4" name="range4" type="range" class="range" min="0" max="50" value="27">
+                        <input id="range4" name="range4" type="range" class="range" min="0" max="100" value="81">
                     </form>
 
 
@@ -311,29 +319,29 @@
     </div>
     <div class="grid-item item-visits-chart">
         <div class="card">
-        <div class="chart-div">
-            <table class="table">
-                <thead>
-                <tr>
-                    <th scope="col" class="item-visits-chart-big-th">Visits</th>
-                    <th scope="col" class="item-visits-chart-big-th">
-                        Click - Throughs
-                    </th>
-                    <th scope="col" class="item-visits-chart-big-th">
-                        CTR
-                    </th>
-                    <th scope="col" class="item-visits-chart-big-th">28 days</th>
-                </tr>
-                <tr>
-                    <th scope="col" class="item-visits-chart-small-th text-left">7</th>
-                    <th scope="col" class="item-visits-chart-small-th text-center">5</th>
-                    <th scope="col" class="item-visits-chart-small-th text-center">71.43%</th>
-                    <th scope="col" class="item-visits-chart-small-th text-center"></th>
-                </tr>
-                </thead>
-            </table>
-            <canvas id="item_visits_chart" width="600" height=""></canvas>
-        </div>
+            <div class="chart-div">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col" class="item-visits-chart-big-th">Visits</th>
+                        <th scope="col" class="item-visits-chart-big-th">
+                            Click - Throughs
+                        </th>
+                        <th scope="col" class="item-visits-chart-big-th">
+                            CTR
+                        </th>
+                        <th scope="col" class="item-visits-chart-big-th">28 days</th>
+                    </tr>
+                    <tr>
+                        <th scope="col" class="item-visits-chart-small-th text-center">234</th>
+                        <th scope="col" class="item-visits-chart-small-th text-center">5687</th>
+                        <th scope="col" class="item-visits-chart-small-th text-center">71.43%</th>
+                        <th scope="col" class="item-visits-chart-small-th text-center"></th>
+                    </tr>
+                    </thead>
+                </table>
+                <canvas id="visitsChart" width="600" height=""></canvas>
+            </div>
         </div>
     </div>
     <div class="grid-item item-links-chart">
@@ -343,7 +351,7 @@
                 <div class="btn-group" role="group">
                     <button id="btnGroupDrop" type="button" class="btn dropdown-toggle" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
-                        Tasks Overview
+                        Most Popular Links
                     </button>
                     <div class="dropdown-menu dropdown-menu-custom-styles" aria-labelledby="btnGroupDrop">
                         <a class="dropdown-item" href="#">Dropdown link</a>
@@ -410,7 +418,7 @@
                         <form style="margin-bottom: 15px;">
                             <div class="range14" dir="rtl">
                                 <input id="range14" name="range14" type="range" dir="rtl" class="range reversedRange"
-                                       style="transform: rotate(-180deg)" min="0" max="5" value="3">
+                                       style="transform: rotate(-180deg)" min="0" max="50" value="45">
                             </div>
                         </form>
                     </td>
@@ -712,14 +720,15 @@
             'height': containerHeight
         });
     }
+
     sizeMap();
     $(window).on("resize", sizeMap);
 </script>
 <!--chart js-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
 <script type="text/javascript" src="js/range.js"></script>
-<script type="text/javascript" src="js/item_visits_chart.js"></script>
-<script type="text/javascript" src="js/sidebar.js"></script>
+<script type="text/javascript" src="js/visits_manager_page_chart.js"></script>
+<!--<script type="text/javascript" src="js/sidebar.js"></script>-->
 
 <!--end scripts-->
 
