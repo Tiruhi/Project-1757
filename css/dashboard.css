@@ -255,15 +255,21 @@ header .lang, header .avatar {
   width: 100%;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  padding: 20px 0 20px 60px;
+  padding: 0 0 0 60px;
   color: #ffffff;
   margin: 4px auto;
+  display: -webkit-box;
 }
 .item-sidebar .left-navbar-links .left-navbar-link-wrap .left-navbar-link.active {
   background-color: #2a1c48;
 }
 .item-sidebar .left-navbar-links .left-navbar-link-wrap .left-navbar-link i {
   padding-right: 15px;
+}
+.item-sidebar .left-navbar-links .left-navbar-link-wrap .left-navbar-link p {
+  text-align: center;
+  margin: 0;
+  margin-right: 35px;
 }
 .item-sidebar .left-navbar-links .left-navbar-links-group {
   text-transform: uppercase;

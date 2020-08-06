@@ -20,25 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59e25de2-e001-4db5-8809-5e24c7293147" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/input-range-manager-styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/sidebar-collapse.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/sidebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/visits_manager_page_chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manager-dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/add-to-playlist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/add-to-playlist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/add-to-playlist.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/add-to-playlist.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ITunes_Store_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Soundcloud_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Tidal_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/amazon-music-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/deezer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/deezer_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/google_play_music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo_applemusic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/playlist-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/song-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/spotify_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/youtube_logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adv-options.html" beforeDir="false" afterPath="$PROJECT_DIR$/adv-options.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics.html" beforeDir="false" afterPath="$PROJECT_DIR$/analytics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artist-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/artist-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/billing.html" beforeDir="false" afterPath="$PROJECT_DIR$/billing.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/dashboard.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/dashboard.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/dashboard.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/dashboard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/dashboard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/JQVMAP/jquery.vmap.world.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/JQVMAP/jquery.vmap.world.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailing-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/mailing-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smartlinks-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/smartlinks-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smartlinks.html" beforeDir="false" afterPath="$PROJECT_DIR$/smartlinks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager-dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/manager-dashboard.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,13 +72,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Tiruk\Desktop\Projects\Project-1757\js" />
       <recent name="C:\Users\Tiruk\Desktop\Projects\Project-1757\css" />
       <recent name="C:\Users\Tiruk\Desktop\Projects\Project-1757" />
+      <recent name="C:\Users\Tiruk\Desktop\Projects\Project-1757\js" />
       <recent name="C:\Users\Tiruk\Desktop\Projects\Project-1757\img" />
       <recent name="C:\Users\Tiruk\Desktop\Projects\Project-1757\js\JQVMAP" />
     </key>
@@ -156,7 +158,10 @@
       <workItem from="1596094831006" duration="2210000" />
       <workItem from="1596181091131" duration="8195000" />
       <workItem from="1596440308797" duration="12235000" />
-      <workItem from="1596468895213" duration="1025000" />
+      <workItem from="1596468895213" duration="12728000" />
+      <workItem from="1596611596725" duration="8651000" />
+      <workItem from="1596632438239" duration="12563000" />
+      <workItem from="1596699609718" duration="8134000" />
     </task>
     <task id="LOCAL-00001" summary="add responcive design">
       <created>1590136789570</created>
@@ -249,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596096497636</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add manager-dashboard page">
+      <created>1596470158860</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1596470158860</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,17 +296,22 @@
     <MESSAGE value="add mailing-list page width responsive" />
     <MESSAGE value="add analytics page width responsive" />
     <MESSAGE value="add dropdown btn 'add more' on smartlinks-add page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dropdown btn 'add more' on smartlinks-add page" />
+    <MESSAGE value="add manager-dashboard page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add manager-dashboard page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590581643870">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1590581643870" />
-    <state x="423" y="0" key="CommitChangelistDialog2" timestamp="1596096496675">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596706160146">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="423" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1596096496675" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1596706160146" />
+    <state x="423" y="0" key="CommitChangelistDialog2" timestamp="1596470157875">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="423" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1596470157875" />
     <state x="351" y="142" key="EditFileWatcherDialog" timestamp="1589995907197">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -308,19 +325,19 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593467949946" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1596096524406">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1596470164758">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1596096524406" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1596470164758" />
     <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591963338488" />
     <state x="282" y="122" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1590147698564">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="282" y="122" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1590147698564" />
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1596468896904">
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1596701437444">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1596468896904" />
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1596701437444" />
     <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592943479302">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
