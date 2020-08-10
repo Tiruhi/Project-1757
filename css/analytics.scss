@@ -1,4 +1,5 @@
-@import "fonts";
+@import "grid-layout-analytics";
+@import "dashboard";
 
 $light-black: #282828;
 $purple: #e501ee;
@@ -63,6 +64,7 @@ header {
       height: 35px;
       padding: 0;
       margin: 0;
+      display: flex;
 
       img {
         width: 100%;
@@ -118,98 +120,6 @@ header {
   }
 }
 
-.item-sidebar {
-  padding-top: 50px;
-  margin-top: -15px;
-  //min-width: 290px;
-
-  .logo-wrapper {
-    .user-name {
-      font-family: "Open Sans", sans-serif;
-      font-size: 16px;
-      color: #fff;
-      width: 100%;
-      padding: 16px 0;
-      text-align: center;
-    }
-  }
-
-  .social {
-    margin-bottom: 26px;
-
-    li {
-      a {
-        &.social-icon {
-          color: #ffffff;
-          width: 14px;
-          height: 16px;
-          padding-left: 12px;
-          padding-right: 12px;
-        }
-      }
-    }
-  }
-
-
-  .left-navbar-links {
-    .left-navbar-link-wrap {
-      &.active {
-        background-color: #2a1c48;
-      }
-
-      margin: 1px auto;
-      padding: 20px 0;
-
-      border-top: 2px solid #28042b;
-      border-bottom: 2px solid #28042b;
-      width: 100%;
-
-      h3 {
-        padding: 0px 60px;
-      }
-
-      .left-navbar-link {
-
-        margin: 1px auto;
-        //padding: 20px 60px;
-
-        //border-top: 1px solid #28042b;
-        //border-bottom: 1px solid #28042b;
-        width: 100%;
-        font-family: "Open Sans", sans-serif;
-        font-size: 16px;
-        padding: 20px 0 20px 60px;
-        color: #ffffff;
-        margin: 4px auto;
-
-        &.active {
-          background-color: #2a1c48;
-        }
-
-        i {
-          padding-right: 15px;
-        }
-      }
-
-    }
-
-    .left-navbar-links-group {
-
-      text-transform: uppercase;
-      font-family: "Open Sans", sans-serif;
-      color: #cc3bff;
-      background-color: #28042b;
-      margin: 4px auto;
-
-      h3 {
-        font-size: 16px;
-
-      }
-    }
-  }
-
-
-}
 
 .item-sub-title {
   max-height: 46px;

@@ -1,82 +1,4 @@
-@import "fonts";
-
-$light-black: #282828;
-$purple: #e501ee;
-* {
-  box-sizing: border-box;
-}
-
-a {
-  &:hover {
-    text-decoration: none;
-  }
-}
-
-button {
-  outline: none !important;
-  cursor: pointer;
-
-  &.btn {
-    box-shadow: none !important;
-  }
-
-  &.submit {
-    &:hover {
-      color: #fff !important;
-      text-decoration: none;
-    }
-  }
-
-  &.submit {
-    &:visited {
-      outline: 0;
-      box-shadow: none;
-    }
-
-    &:hover, &:active, &:focus {
-      box-shadow: none;
-    }
-  }
-
-
-  &.submit {
-    padding-left: 60px;
-    padding-right: 60px;
-
-  }
-
-  &.btn-width-bg {
-    font-family: "NeueHaasUnicaExtraBold";
-    font-size: 18px;
-    line-height: 26px;
-    color: #fff;
-    background: linear-gradient(to right, #e301ec, #920fe6);
-
-    border-radius: 28.5px;
-    outline: none;
-    margin: 40px auto;
-
-    &:hover, &:active, &:focus {
-      background: linear-gradient(to right, darken(#e301ec, 5), darken(#920fe6, 5));
-    }
-  }
-
-}
-
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-}
-
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-input:-webkit-autofill:active {
-  -webkit-box-shadow: 0 0 0 30px white inset !important;
-}
-
+@import "general-styles";
 
 body {
   background-image: url(../img/dashboard-page-bg.png);
@@ -125,7 +47,6 @@ header {
   &.header {
     background-color: #fff;
     padding: 20px 60px;
-    //min-height: 75px;
     box-shadow: 7px 0 10px rgba(0, 0, 0, 0.05);
 
     .logo {
@@ -133,6 +54,7 @@ header {
       height: 35px;
       padding: 0;
       margin: 0;
+      display: flex;
 
       img {
         width: 100%;
@@ -269,14 +191,15 @@ header {
       }
 
       margin: 1px auto;
-      padding: 20px 0;
+      //padding: 20px 0;
 
       border-top: 2px solid #28042b;
       border-bottom: 2px solid #28042b;
       width: 100%;
 
       h3 {
-        padding: 0px 60px;
+        padding: 20px 60px;
+        margin-bottom: 0 !important;
       }
 
       .left-navbar-link {
@@ -289,7 +212,8 @@ header {
         width: 100%;
         font-family: "Open Sans", sans-serif;
         font-size: 16px;
-        padding: 0 0 0 60px;
+        //padding: 0 0 0 60px;
+        padding: 20px 0 20px 60px;
         color: #ffffff;
         margin: 4px auto;
 
@@ -573,7 +497,7 @@ header {
     }
 
     th, td {
-      padding: 20px 0;
+      padding: 20px;
     }
 
     th {

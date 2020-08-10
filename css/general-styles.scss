@@ -1,7 +1,16 @@
 @import "fonts";
 
+$light-black: #282828;
+$purple: #e501ee;
+
 * {
   box-sizing: border-box;
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 /*start scrollbar block*/
@@ -161,9 +170,73 @@ button, input, input[type="checkbox"] {
   }
 }
 
-body {
+
+
+button, a, input {
+  outline: none !important;
+  cursor: pointer;
+
+  &.btn {
+    box-shadow: none !important;
+  }
+
+  &.submit {
+    &:hover {
+      color: #fff !important;
+      text-decoration: none;
+    }
+  }
+
+  &.submit {
+    &:visited {
+      outline: 0;
+      box-shadow: none;
+    }
+
+    &:hover, &:active, &:focus {
+      box-shadow: none;
+    }
+  }
+
+
+  &.submit {
+    padding-left: 60px;
+    padding-right: 60px;
+
+  }
+
+  &.btn-width-bg {
+    font-family: "NeueHaasUnicaExtraBold";
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+    background: linear-gradient(to right, #e301ec, #920fe6);
+
+    border-radius: 28.5px;
+    outline: none;
+    margin: 40px auto;
+
+    &:hover, &:active, &:focus {
+      background: linear-gradient(to right, darken(#e301ec, 5), darken(#920fe6, 5));
+    }
+  }
+
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+body {
 
   .bg-t {
     background-image: url("../img/top-bg.png");
@@ -388,5 +461,4 @@ body {
   }
 }
 
-@import "medias";
 

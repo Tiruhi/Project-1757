@@ -10,6 +10,8 @@
   display: grid;
   grid-gap: 15px;
   grid-template-rows: auto 50px minmax(200px, 4fr) minmax(150px, auto) ;
+  grid-template-columns: 290px repeat(4, minmax(50px, 1fr));
+
   grid-template-areas:
           "header header header header header"
           "sidebar dashboard dashboard dashboard dashboard"

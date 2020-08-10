@@ -38,7 +38,8 @@
 .container-grid {
   display: grid;
   grid-gap: 15px;
-  grid-template-columns: repeat(5, minmax(50px, 1fr));
+  grid-template-rows: auto 50px 50px repeat(3, minmax(100px, 1fr));
+  grid-template-columns: 290px repeat(4, minmax(50px, 1fr));
   grid-template-areas: "header header header header header" "sidebar dashboard dashboard dashboard dashboard" "sidebar subTitle subTitle subTitle subTitle" "sidebar singleVisitsChart singleVisitsChart viewsChart viewsChart" "sidebar popularLinks popularLinks popularLinks popularLinks" "sidebar footer footer footer footer";
 }
 
@@ -61,7 +62,7 @@
   .container-grid {
     display: grid;
     grid-gap: 15px;
-    grid-template-columns: repeat(3, minmax(50px, 160px)) auto auto;
+    grid-template-columns: 290px repeat(2, minmax(50px, 160px)) auto auto;
     grid-template-areas: "header header header header header" "sidebar dashboard dashboard dashboard dashboard" "sidebar subTitle subTitle subTitle subTitle" "sidebar singleVisitsChart singleVisitsChart singleVisitsChart singleVisitsChart" "sidebar viewsChart viewsChart viewsChart viewsChart" "sidebar popularLinks popularLinks popularLinks popularLinks" "sidebar footer footer footer footer";
   }
 

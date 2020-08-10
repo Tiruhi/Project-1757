@@ -1,4 +1,4 @@
-@import "grid-layout-artist-page";
+@import "grid-layout-artist-page-or-share";
 @import "dashboard";
 
 .w-80p {
@@ -58,12 +58,14 @@
 }
 
 .item-left-block {
+
   .artist-img-wrap {
     img {
       height: auto;
       max-width: 100%;
     }
   }
+
 
   h2.dark-purple {
     padding-top: 20px;
@@ -283,12 +285,12 @@
     flex-wrap: wrap;
 
     .disc-link {
-      //width: 255px;
-      //height: 255px;
-      margin: 5px;
+      //width: 310px;
+      //height: 310px;
 
       width: 23%;
 
+      margin: 5px;
 
       &:hover {
         opacity: .7;

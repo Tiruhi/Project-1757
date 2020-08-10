@@ -30,6 +30,7 @@
 .container-grid {
   display: grid;
   grid-gap: 15px;
+  grid-template-columns: 290px repeat(4, minmax(50px, 1fr));
   grid-template-areas: "header header header header header" "sidebar dashboard dashboard dashboard dashboard" "sidebar content content content content" "sidebar footer footer footer footer";
 }
 

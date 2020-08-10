@@ -23,14 +23,17 @@
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet"/>
     <!--end select2-->
 
-    <!-- Font Awesome -->
+    <!--Start Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
-    <link rel="shortcut icon" type="image/ico" href="img/favicon.ico"/>
     <link rel="stylesheet" type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/brands.min.css">
 
-    <link rel="stylesheet" type="text/css" href="css/artist-page.css">
+    <!--End Font Awesome -->
+
+    <link rel="shortcut icon" type="image/ico" href="img/favicon.ico"/>
+
+    <link rel="stylesheet" type="text/css" href="css/artist-page-or-share.css">
     <title>beatlify</title>
 
 </head>
@@ -38,144 +41,9 @@
 <body>
 
 <div class="container-grid">
-    <!--start header-->
-    <header class="grid-item item-header container-fluid no-gutters header">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a href="/" class="navbar-brand logo">
-                <img src="img/logo.png" alt="beatlify">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-                <div class="my-2 my-lg-0 ml-auto">
-                    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                        <div class="btn-group" role="group">
-                            <button id="btnGroupDrop1" type="button" class="btn dropdown-toggle" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false">
-                                <img src="img/lang-uk.png" alt="UK" class="lang">
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                                <a class="dropdown-item" href="#">Dropdown link</a>
-                                <a class="dropdown-item" href="#">Dropdown link</a>
-                            </div>
-                        </div>
-                        <div class="btn-group" role="group">
-                            <button id="btnGroupDrop2" type="button" class="btn dropdown-toggle" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false">
-                                <img src="img/avatar-small.png" alt="avatar" class="avatar">
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="btnGroupDrop2">
-                                <a class="dropdown-item" href="#">Dropdown link</a>
-                                <a class="dropdown-item" href="#">Dropdown link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-
-        </nav>
-    </header>
-    <!--end header-->
-
-    <!--end sidebar-->
-    <div class="grid-item item-sidebar">
-        <!-- Sidebar navigation -->
-        <div class="d-flex justify-content-start">
-            <ul class="w-100 menu-nav ">
-                <!-- Logo -->
-                <li>
-                    <div class="logo-wrapper waves-light d-block">
-                        <a href="#">
-                            <img src="img/avatar-big.png" class="d-flex m-auto">
-                            <div class="user-name">Full User Name</div>
-                        </a>
-                    </div>
-                </li>
-                <!--/. Logo -->
-                <!--Social-->
-                <li>
-                    <ul class="social d-flex justify-content-center">
-                        <li>
-                            <a href="#" class="social-icon">
-                                <i class="fas fa-user"></i>
-                            </a>
-                        </li>
-                        <li><a href="#" class="social-icon"><i class="fas fa-home"></i></a></li>
-                        <li><a href="#" class="social-icon"><i class="fas fa-file-export"></i></a></li>
-                    </ul>
-                </li>
-                <!--/Social-->
-
-                <!-- Side navigation links -->
-                <li>
-
-                    <ul class="left-navbar-links w-100 d-flex flex-column">
-                        <li class="left-navbar-link-wrap left-navbar-links-group">
-                            <h3>tools</h3>
-                        </li>
-                        <li class="left-navbar-link-wrap active">
-                            <a href="#" class="waves-effect left-navbar-link">
-                                <i class="fas fa-file-alt"></i>Dashboard</a>
-                        </li>
-                        <li class="left-navbar-link-wrap">
-                            <a href="#" class="waves-effect left-navbar-link">
-                                <i class="fas fa-link"></i>Smartlinks</a>
-                        </li>
-                        <li class="left-navbar-link-wrap">
-                            <a href="#" class="waves-effect left-navbar-link">
-                                <i class="fas fa-file-alt"></i>Artist page</a>
-                        </li>
-                        <li class="left-navbar-link-wrap"><a href="#" class="waves-effect left-navbar-link">
-                            <i class="fas fa-file-alt"></i>Analytics</a>
-                        </li>
-                        <li class="left-navbar-link-wrap"><a href="#" class="waves-effect left-navbar-link">
-                            <i class="fas fa-envelope"></i>Mailing List</a>
-                        </li>
-                        <li class="left-navbar-link-wrap"><a href="#" class="waves-effect left-navbar-link">
-                            <i class="fas fa-cog"></i>Advanced options</a>
-                        </li>
-
-                        <li class="left-navbar-link-wrap left-navbar-links-group">
-                            <h3>account</h3>
-                        </li>
-                        <li class="left-navbar-link-wrap"><a href="#" class="waves-effect left-navbar-link">
-                            <i class="far fa-user-circle"></i>Profile</a>
-                        </li>
-<!--                        <li class="left-navbar-link-wrap"><a href="#" class="waves-effect left-navbar-link">-->
-<!--                            <i class="fas fa-file-alt"></i>Billing</a>-->
-<!--                        </li>-->
-                        <li class="left-navbar-link-wrap"><a href="#" class="waves-effect left-navbar-link">
-                            <i class="fas fa-sign-out-alt"></i>Log Out</a>
-                        </li>
-
-
-                    </ul>
-                </li>
-
-            </ul>
-
-        </div>
-        <!--/. Sidebar navigation -->
-
-    </div>
-    <!--end sidebar-->
-
 
     <!--start content-->
-    <div class="grid-item item-dashboard d-flex">
-        <h1>Artist page</h1>
-        <div class="btn-group ml-auto">
-            <a class="page" href="">Home</a>
-            <span class="slash">/</span>
-            <a class="page active" href="#">Analytics</a>
-        </div>
-    </div>
+
     <div class="item-content">
         <div class="item-left-block ">
             <div class="d-flex flex-column">
@@ -232,7 +100,8 @@
                                 </div>
                             </div>
                             <div class="d-flex justify-content-end">
-                                <p class="tweet-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+                                <p class="tweet-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Asperiores
                                     atque cum dolorem
                                     eaque ex, facere id obcaecati officia quos sint voluptas voluptatibus.</p>
                             </div>
@@ -257,7 +126,8 @@
                                 </div>
                             </div>
                             <div class="d-flex justify-content-end">
-                                <p class="tweet-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+                                <p class="tweet-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Asperiores
                                     atque cum dolorem
                                     eaque ex, facere id obcaecati officia quos sint voluptas voluptatibus.</p>
                             </div>
@@ -282,7 +152,8 @@
                                 </div>
                             </div>
                             <div class="d-flex justify-content-end">
-                                <p class="tweet-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+                                <p class="tweet-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Asperiores
                                     atque cum dolorem
                                     eaque ex, facere id obcaecati officia quos sint voluptas voluptatibus.</p>
                             </div>
@@ -307,7 +178,8 @@
                                 </div>
                             </div>
                             <div class="d-flex justify-content-end">
-                                <p class="tweet-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+                                <p class="tweet-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Asperiores
                                     atque cum dolorem
                                     eaque ex, facere id obcaecati officia quos sint voluptas voluptatibus.</p>
                             </div>
@@ -332,7 +204,8 @@
                                 </div>
                             </div>
                             <div class="d-flex justify-content-end">
-                                <p class="tweet-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+                                <p class="tweet-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Asperiores
                                     atque cum dolorem
                                     eaque ex, facere id obcaecati officia quos sint voluptas voluptatibus.</p>
                             </div>
@@ -357,7 +230,8 @@
                                 </div>
                             </div>
                             <div class="d-flex justify-content-end">
-                                <p class="tweet-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+                                <p class="tweet-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Asperiores
                                     atque cum dolorem
                                     eaque ex, facere id obcaecati officia quos sint voluptas voluptatibus.</p>
                             </div>
@@ -386,7 +260,7 @@
         <div class="item-right-block">
             <div class="disc-wrap">
                 <a href="#" class="disc-link"> <img src="img/disc-1.png" alt="Album"></a>
-                <a href="#" class="disc-link"> <img src="img/disc-2.png" alt="Album"></a>
+                <a href="#" class="disc-link"> <img src="img/disc-2.jpg" alt="Album"></a>
                 <a href="#" class="disc-link"> <img src="img/disc-3.png" alt="Album"></a>
                 <a href="#" class="disc-link"> <img src="img/disc-4.png" alt="Album"></a>
                 <a href="#" class="disc-link"> <img src="img/disc-5.png" alt="Album"></a>
@@ -406,7 +280,10 @@
                 <a href="#" class="disc-link"> <img src="img/disc-19.png" alt="Album"></a>
                 <a href="#" class="disc-link"> <img src="img/disc-20.png" alt="Album"></a>
             </div>
+            <div class="btn-wrap m-auto text-center pt-5">
 
+                <a href="#" class="btn-width-bg p-2 pl-5 pr-5">Load More</a>
+            </div>
         </div>
     </div>
 
