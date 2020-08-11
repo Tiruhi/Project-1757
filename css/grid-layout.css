@@ -94,6 +94,7 @@
 .container-grid {
   display: grid;
   grid-gap: 15px;
+  grid-template-rows: 75px 50px 100px repeat(4, minmax(100px, auto)) 50px repeat(2, minmax(100px, auto));
   grid-template-columns: 290px repeat(4, minmax(50px, 1fr));
   grid-template-areas: "header header header header header" "sidebar dashboard dashboard dashboard dashboard" "sidebar select-smartlink select-smartlink select-smartlink select-smartlink" "sidebar vistts views cliks rate" "sidebar visitsChart visitsChart linksChart linksChart" "sidebar music-services music-services sources sources" "sidebar fb-shares twitter-shares insta-shares copied-links-rate" "sidebar dashboard-bottom dashboard-bottom dashboard-bottom dashboard-bottom" "sidebar map  map  map  map" "sidebar country-group-1 country-group-1 country-group-2 country-group-2";
 }

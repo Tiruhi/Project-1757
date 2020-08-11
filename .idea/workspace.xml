@@ -20,81 +20,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59e25de2-e001-4db5-8809-5e24c7293147" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/artist-page-or-share.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/artist-page-or-share.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/grid-layout-artist-page-or-share.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/sidebar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add-to-playlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/add-to-playlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adv-options.html" beforeDir="false" afterPath="$PROJECT_DIR$/adv-options.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics.html" beforeDir="false" afterPath="$PROJECT_DIR$/analytics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project-1757.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/artist-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/artist-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/billing.html" beforeDir="false" afterPath="$PROJECT_DIR$/billing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/add-to-playlist.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/add-to-playlist.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/add-to-playlist.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/add-to-playlist.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/add-to-playlist.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/add-to-playlist.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/adv-options.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/adv-options.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/adv-options.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/adv-options.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/adv-options.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/adv-options.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/analytics.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/analytics.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/analytics.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/analytics.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/analytics.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/analytics.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/artist-page-or-share.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/artist-page-or-share.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/artist-page-or-share.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/artist-page-or-share.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/artist-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/artist-page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/artist-page.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/artist-page.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/artist-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/artist-page.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/billing.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/billing.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/billing.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/billing.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/billing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/billing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/dashboard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/dashboard.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/dashboard.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/dashboard.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/dashboard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/dashboard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/general-styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/general-styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/general-styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/general-styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid-layout-adv-options.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-adv-options.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid-layout-adv-options.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-adv-options.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/grid-layout-adv-options.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-adv-options.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid-layout-analytics.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-analytics.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid-layout-analytics.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-analytics.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/grid-layout-analytics.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-analytics.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid-layout-artist-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-artist-page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid-layout-artist-page.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-artist-page.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/grid-layout-artist-page-or-share.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-artist-page-or-share.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/grid-layout-artist-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-artist-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid-layout-billing.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-billing.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid-layout-billing.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-billing.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/grid-layout-billing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-billing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid-layout-mailing-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-mailing-list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid-layout-mailing-list.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-mailing-list.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/grid-layout-mailing-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-mailing-list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid-layout-profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-profile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid-layout-profile.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-profile.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid-layout-profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-profile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid-layout-smartlinks-add.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-smartlinks-add.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid-layout-smartlinks-add.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-smartlinks-add.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid-layout-smartlinks-add.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-smartlinks-add.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid-layout-smartlinks.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-smartlinks.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid-layout-smartlinks.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-smartlinks.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/grid-layout-smartlinks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-smartlinks.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/grid-layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/grid-layout.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/grid-layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/mailing-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mailing-list.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/mailing-list.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/mailing-list.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mailing-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/mailing-list.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/profile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/profile.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/profile.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/profile.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/smartlinks-add.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/smartlinks-add.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/smartlinks-add.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/smartlinks-add.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/smartlinks-add.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/smartlinks-add.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/smartlinks.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/smartlinks.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/smartlinks.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/smartlinks.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/smartlinks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/smartlinks.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/disc-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/disc-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailing-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/mailing-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smartlinks-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/smartlinks-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smartlinks.html" beforeDir="false" afterPath="$PROJECT_DIR$/smart-link.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +91,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/dashboard.html" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -217,7 +182,13 @@
       <workItem from="1596632438239" duration="12563000" />
       <workItem from="1596699609718" duration="18811000" />
       <workItem from="1596894241862" duration="167000" />
-      <workItem from="1597042950118" duration="18847000" />
+      <workItem from="1597042950118" duration="20977000" />
+      <workItem from="1597128628642" duration="2798000" />
+      <workItem from="1597133571814" duration="4580000" />
+      <workItem from="1597138656588" duration="415000" />
+      <workItem from="1597139118001" duration="3196000" />
+      <workItem from="1597142577764" duration="1464000" />
+      <workItem from="1597144113830" duration="4899000" />
     </task>
     <task id="LOCAL-00001" summary="add responcive design">
       <created>1590136789570</created>
@@ -324,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596716385439</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add artist-or-share page&#10;fix same bugs">
+      <created>1597069604956</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1597069604956</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,64 +339,75 @@
     <MESSAGE value="add dropdown btn 'add more' on smartlinks-add page" />
     <MESSAGE value="add manager-dashboard page" />
     <MESSAGE value="add add-to-playlist page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add add-to-playlist page" />
+    <MESSAGE value="add artist-or-share page&#10;fix same bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add artist-or-share page&#10;fix same bugs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590581643870">
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1597140059037">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1597140059037" />
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1590581643870" />
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596706160146">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597144499327">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1596706160146" />
-    <state x="423" y="0" key="CommitChangelistDialog2" timestamp="1596716384312">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1597144499327" />
+    <state x="423" y="0" key="CommitChangelistDialog2" timestamp="1597069603730">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="423" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1596716384312" />
+    <state x="423" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1597069603730" />
+    <state x="1784" y="123" width="1182" height="544" maximized="true" key="DiffContextDialog" timestamp="1597143475121">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1784" y="123" width="1182" height="544" maximized="true" key="DiffContextDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1597143475121" />
     <state x="351" y="142" key="EditFileWatcherDialog" timestamp="1589995907197">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="351" y="142" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1589995907197" />
-    <state x="463" y="118" width="476" height="489" key="FileChooserDialogImpl" timestamp="1596894407502">
+    <state x="463" y="118" width="476" height="489" key="FileChooserDialogImpl" timestamp="1597143313995">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" width="476" height="489" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1596894407502" />
+    <state x="463" y="118" width="476" height="489" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1597143313995" />
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591944735200" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1593467949946">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593467949946" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1596716389547">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1597069615834">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1596716389547" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1597069615834" />
     <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591963338488" />
-    <state x="282" y="122" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1590147698564">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1613" y="251" width="1182" height="529" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1597156517552">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
+    <state x="1613" y="251" width="1182" height="529" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1597156517552" />
     <state x="282" y="122" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1590147698564" />
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1596894242555">
+    <state x="1572" y="136" width="1182" height="544" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597142979383">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1572" y="136" width="1182" height="544" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1597142979383" />
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1597144113804">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1596894242555" />
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1597144113804" />
     <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596804284868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1596804284868" />
-    <state x="84" y="41" width="1038" height="714" key="dock-window-1" timestamp="1597064803909">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1860" y="209" width="807" height="714" maximized="true" key="dock-window-1" timestamp="1597144116438">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="84" y="41" width="1038" height="714" key="dock-window-1/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1597064803909" />
+    <state x="1860" y="209" width="807" height="714" maximized="true" key="dock-window-1/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1597144116438" />
     <state x="84" y="41" width="1038" height="714" maximized="true" key="dock-window-1/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1597052696359" />
     <state x="113" y="108" width="1038" height="714" key="dock-window-2" timestamp="1597067157834">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="113" y="108" width="1038" height="714" key="dock-window-2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1597067157834" />
-    <state x="390" y="0" width="873" height="728" key="find.popup" timestamp="1597064851712">
+    <state x="390" y="0" width="873" height="728" key="find.popup" timestamp="1597143633663">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="0" width="873" height="728" key="find.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1597064851712" />
+    <state x="390" y="0" width="873" height="728" key="find.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1597143633663" />
     <state x="390" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1591789222915" />
   </component>
   <component name="XDebuggerManager">

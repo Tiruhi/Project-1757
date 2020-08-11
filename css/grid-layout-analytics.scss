@@ -1,16 +1,10 @@
 /*start grid layout */
 .item-header {grid-area: header}
-
 .item-dashboard {grid-area: dashboard}
-
 .item-sidebar {grid-area: sidebar}
-
 .item-sub-title {grid-area: subTitle}
-
 .item-single-visits {grid-area: singleVisitsChart}
-
 .item-views {grid-area: viewsChart}
-
 .item-popular-links {grid-area: popularLinks}
 .item-footer {grid-area: footer}
 
@@ -19,10 +13,9 @@
 }
 
 .container-grid {
-  //background-color: aquamarine;
   display: grid;
   grid-gap: 15px;
-  grid-template-rows: auto 50px 50px repeat(3,  minmax(100px, 1fr)) ;
+  grid-template-rows: 75px 50px 50px repeat(3,  minmax(100px, auto)) ;
 
   grid-template-columns: 290px repeat(4, minmax(50px, 1fr));
   grid-template-areas:
@@ -37,10 +30,6 @@
 
 
 /*end grid layout*/
-
-.item-header {
-  background-color: #fff;
-}
 
 .item-sidebar {
   background-image: url("../img/left-sidebar-bg.png");

@@ -13,18 +13,14 @@
   grid-gap: 15px;
   grid-template-columns: 290px repeat(4, minmax(50px, 1fr));
 
-  grid-template-rows: auto 50px minmax(100px, 1fr)  minmax(100px, auto) ;
+  grid-template-rows: 75px 50px minmax(100px, 1fr)  minmax(100px, auto) ;
   grid-template-areas:
           "header header header header header"
           "sidebar dashboard dashboard dashboard dashboard"
           "sidebar content content content content"
           "sidebar footer footer footer footer"
 }
-.grid-item {
-  background-color: #fff;
-  box-shadow: 7px 0 10px rgba(0, 0, 0, 0.05);
 
-}
 .item-content {
   display: grid;
   grid-gap: 15px;
@@ -36,9 +32,6 @@
 }
 /*end grid layout*/
 
-.item-header {
-  background-color: #fff;
-}
 .item-sidebar {
   background-image: url("../img/left-sidebar-bg.png") ;
   background-size: cover;
