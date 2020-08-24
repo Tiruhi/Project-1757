@@ -23,12 +23,14 @@
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet"/>
     <!--end select2-->
 
-    <!-- Font Awesome -->
+    <!-- start Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
-    <link rel="shortcut icon" type="image/ico" href="img/favicon.ico"/>
     <link rel="stylesheet" type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/brands.min.css">
+    <!-- end Font Awesome -->
+
+    <link rel="shortcut icon" type="image/ico" href="img/favicon.ico"/>
 
     <link rel="stylesheet" type="text/css" href="css/artist-page.css">
     <title>beatlify</title>
@@ -147,9 +149,9 @@
                         <li class="left-navbar-link-wrap"><a href="#" class="waves-effect left-navbar-link">
                             <i class="far fa-user-circle"></i>Profile</a>
                         </li>
-<!--                        <li class="left-navbar-link-wrap"><a href="#" class="waves-effect left-navbar-link">-->
-<!--                            <i class="fas fa-file-alt"></i>Billing</a>-->
-<!--                        </li>-->
+                        <li class="left-navbar-link-wrap"><a href="#" class="waves-effect left-navbar-link">
+                            <i class="fas fa-file-alt"></i>Billing</a>
+                        </li>
                         <li class="left-navbar-link-wrap"><a href="#" class="waves-effect left-navbar-link">
                             <i class="fas fa-sign-out-alt"></i>Log Out</a>
                         </li>
@@ -169,7 +171,7 @@
 
     <!--start content-->
     <div class="grid-item item-dashboard d-flex">
-        <h1 class="font-weight-bold">Artist page</h1>
+        <h1 class="h1 font-weight-bold">Artist page</h1>
         <div class="btn-group ml-auto">
             <a class="page" href="">Home</a>
             <span class="slash">/</span>
@@ -177,6 +179,29 @@
         </div>
     </div>
     <div class="item-content">
+        <div class="item-select">
+            <div class="sub-title-wrap">
+                <div class="choose-artist-wrap">
+                    <label for="selectArtist" class="choose-artist-label d-flex">
+                        Choose the artist:
+                    </label>
+                    <!--        <div class="select2-container">-->
+                    <select class=" js-states form-control select-artist" id="selectArtist">
+                        <option>Artist 1</option>
+                        <option>Artist 2</option>
+                    </select>
+                    <!--        </div>-->
+                </div>
+
+            </div>
+        </div>
+        <div class="item-search">
+            <h1 class="h1 font-weight-bold">Search</h1>
+            <form class="search-form">
+                <input class="form-control input-search" type="text" placeholder="Find an artist" aria-label="Search">
+                <input type="submit" class="btn-search">
+            </form>
+        </div>
         <div class="item-left-block ">
             <div class="d-flex flex-column">
                 <div class="artist-img-wrap">
@@ -410,7 +435,6 @@
         </div>
     </div>
 
-
     <!--end content-->
 
     <!--start footer-->
@@ -445,17 +469,11 @@
 <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>-->
 <script src="js/bootstrap.min.js"></script>
 
-
-<script type="text/javascript">
-    // <!--start select2-->
-    $(document).ready(function () {
-        $('.js-example-basic-single').select2();
-    });
-    // <!--end select2-->
-
-</script>
-
 <script type="text/javascript" src="js/custom-scripts.js"></script>
+
+<!--start select2-->
+<script type="text/javascript" src="js/select2-scripts.js"></script>
+<!--end select2-->
 
 <!--end scripts-->
 

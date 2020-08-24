@@ -24,6 +24,14 @@
   grid-area: item-right-block;
 }
 
+.item-search {
+  grid-area: item-search;
+}
+
+.item-select {
+  grid-area: item-select;
+}
+
 .item-footer {
   grid-area: footer;
 }
@@ -40,7 +48,7 @@
   display: grid;
   grid-gap: 15px;
   grid-template-rows: auto auto;
-  grid-template-areas: "item-left-block item-right-block item-right-block";
+  grid-template-areas: "item-select item-select item-select" "item-search item-search item-search" "item-left-block item-right-block item-right-block";
 }
 
 /*end grid layout*/
@@ -85,6 +93,11 @@
 
 a:hover {
   text-decoration: none;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  line-height: 1;
 }
 
 /*start scrollbar block*/
@@ -510,6 +523,125 @@ body .footer .footer-social .youtube .fab.fa-youtube {
   font-size: 16px;
 }
 
+/*start select 2 block */
+.select2-container {
+  max-width: 350px;
+  margin-top: 10px;
+}
+
+.select2-dropdown {
+  background-color: #fff;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  left: -100000px;
+  width: 100%;
+  z-index: 1051;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: #ffffff;
+  padding-left: 30px;
+  margin-top: 5px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered:focus {
+  box-shadow: none;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  margin-top: 5px;
+}
+
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+  background-color: #715078;
+  color: white;
+}
+
+.select2-container--default .select2-selection--single {
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+.select2-container--default .select2-selection--single:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+/*end select 2 block */
+/*start select 2 custom styles*/
+.item-select-smartlink {
+  padding: 25px 0 25px 30px;
+  min-height: 105px;
+}
+.item-select-smartlink .smartlink-label {
+  color: #ffffff;
+  position: relative;
+  margin-right: 25px;
+  padding-left: 70px;
+  min-height: 55px;
+  margin-bottom: 0;
+  align-items: center;
+}
+.item-select-smartlink .smartlink-label:before {
+  content: url("../img/smartlink-before.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 55px;
+  height: 55px;
+}
+
+.sub-title-wrap {
+  background-image: url(../img/purple-horisontal-bg.png);
+  padding: 20px 0 20px 30px;
+  min-height: 105px;
+  display: flex;
+}
+.sub-title-wrap .choose-artist-wrap {
+  display: flex;
+  align-self: center;
+}
+.sub-title-wrap .choose-artist-wrap .choose-artist-label {
+  color: #ffffff;
+  position: relative;
+  margin-right: 20px;
+  padding-left: 70px;
+  min-height: 55px;
+  margin-bottom: 0;
+  font-size: 18px;
+  align-items: center;
+}
+.sub-title-wrap .choose-artist-wrap .choose-artist-label:before {
+  content: url("../img/smartlink-before.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 55px;
+  height: 55px;
+}
+.sub-title-wrap .choose-artist-wrap .select2-container {
+  max-width: 250px;
+  margin-top: 10px;
+}
+.sub-title-wrap .title {
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+.sub-title-wrap .title .h2 {
+  position: absolute;
+  left: 60%;
+  transform: translate(-50%, 0);
+  z-index: 1000;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+/*end select 2 custom styles*/
 body {
   background-image: url(../img/dashboard-page-bg.png);
   height: 100%;
@@ -566,6 +698,7 @@ ul, li {
 .item-dashboard h1 {
   font-size: 30px;
   margin-bottom: 0;
+  font-weight: 600;
 }
 .item-dashboard .btn-group {
   margin: auto 0;
@@ -672,54 +805,6 @@ ul, li {
   font-size: 16px;
 }
 
-/*start select 2 block */
-.select2-container {
-  max-width: 350px;
-  margin-top: 10px;
-}
-
-.select2-dropdown {
-  background-color: #fff;
-  border: 1px solid #ffffff;
-  border-radius: 4px;
-  box-sizing: border-box;
-  display: block;
-  position: absolute;
-  left: -100000px;
-  width: 100%;
-  z-index: 1051;
-}
-
-.select2-container--default .select2-selection--single .select2-selection__rendered {
-  color: #ffffff;
-  padding-left: 30px;
-  margin-top: 5px;
-}
-.select2-container--default .select2-selection--single .select2-selection__rendered:focus {
-  box-shadow: none;
-}
-
-.select2-container--default .select2-selection--single .select2-selection__arrow {
-  margin-top: 5px;
-}
-
-.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
-  background-color: #715078;
-  color: white;
-}
-
-.select2-container--default .select2-selection--single {
-  height: 40px;
-  background-color: rgba(255, 255, 255, 0.3);
-  border: 1px solid #fff;
-  border-radius: 20px;
-}
-.select2-container--default .select2-selection--single:focus {
-  box-shadow: none;
-  outline: none;
-}
-
-/*end select 2 block */
 /*start dropdown-menu-custom-styles*/
 .item-visits-chart .chart-div .table th {
   font-family: OpenSansRegular, sans-serif;
@@ -1258,6 +1343,57 @@ ul, li {
   text-align: center;
   width: 100%;
 }
+.item-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  background-color: #fff;
+  padding: 5px 40px;
+  margin-right: 15px;
+}
+.item-search .h1 {
+  font-size: 30px;
+  color: #28042b;
+  margin-bottom: 0 !important;
+}
+.item-search .search-form {
+  display: flex;
+  position: relative;
+  width: 30%;
+}
+.item-search .search-form ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #28042b;
+  opacity: 1;
+  /* Firefox */
+}
+.item-search .search-form :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #28042b;
+}
+.item-search .search-form ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #28042b;
+}
+.item-search .search-form .input-search {
+  border-radius: 10px;
+  height: 40px !important;
+  color: #28042b;
+  font-size: 14px;
+  font-style: italic;
+}
+.item-search .search-form .btn-search {
+  background: url("../img/artist-search.png") no-repeat;
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  color: transparent;
+  position: absolute;
+  right: 0;
+}
+
 .w-80p {
   width: 80%;
 }
@@ -1271,8 +1407,11 @@ ul, li {
 }
 
 .item-dashboard {
-  padding: 7px 40px;
-  max-height: 50px;
+  padding: 12px 40px;
+  margin-right: 15px;
+}
+
+.item-select {
   margin-right: 15px;
 }
 

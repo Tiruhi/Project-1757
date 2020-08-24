@@ -179,9 +179,24 @@
     </div>
 
     <div class="item-big-title-1">
-        <h2 class="h2">
-            Create
-        </h2>
+        <div class="sub-title-wrap">
+            <div class="choose-artist-wrap">
+                <label for="selectArtist" class="choose-artist-label d-flex">
+                    Choose the artist:
+                </label>
+                <!--        <div class="select2-container">-->
+                <select class=" js-states form-control select-artist" id="selectArtist">
+                    <option>Artist 1</option>
+                    <option>Artist 2</option>
+                </select>
+                <!--        </div>-->
+            </div>
+            <div class="title">
+                <h2 class="h2" style="left: 52%">
+                    Create
+                </h2>
+            </div>
+        </div>
     </div>
 
     <div class="item-create-block create-block">
@@ -464,15 +479,9 @@
 <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>-->
 <script src="js/bootstrap.min.js"></script>
 
-
-<script type="text/javascript">
-    // <!--start select2-->
-    $(document).ready(function () {
-        $('.js-example-basic-single').select2();
-    });
-    // <!--end select2-->
-
-</script>
+// <!--start select2-->
+<script type="text/javascript" src="js/select2-scripts.js"></script>
+// <!--end select2-->
 
 <script type="text/javascript" src="js/custom-scripts.js"></script>
 
