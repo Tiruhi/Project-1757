@@ -57,7 +57,7 @@ input, select, button {
   }
 }
 
-button, input, input[type="checkbox"] {
+button, input, a, input[type="checkbox"] {
   outline: none !important;
   cursor: pointer;
 
@@ -466,4 +466,20 @@ body {
   }
 }
 
+
+.w-80p {
+  width: 80%;
+}
+
+.w-20p {
+  //width: 20%;
+}
+
+.text-purple {
+  color: #9b0de7;
+}
+
+.dark-purple {
+  color: #28042b;
+}
 

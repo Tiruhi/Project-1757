@@ -75,33 +75,33 @@ input:focus, input:active, input:hover, select:focus, select:active, select:hove
   outline: none;
 }
 
-button, input, input[type=checkbox] {
+button, input, a, input[type=checkbox] {
   outline: none !important;
   cursor: pointer;
 }
-button.login:hover, button.get-started:hover, input.login:hover, input.get-started:hover, input[type=checkbox].login:hover, input[type=checkbox].get-started:hover {
+button.login:hover, button.get-started:hover, input.login:hover, input.get-started:hover, a.login:hover, a.get-started:hover, input[type=checkbox].login:hover, input[type=checkbox].get-started:hover {
   color: #fff !important;
   text-decoration: none;
 }
-button.btn-width-bg:visited, button.login:visited, button.get-started:visited, button.border-gradient:visited, input.btn-width-bg:visited, input.login:visited, input.get-started:visited, input.border-gradient:visited, input[type=checkbox].btn-width-bg:visited, input[type=checkbox].login:visited, input[type=checkbox].get-started:visited, input[type=checkbox].border-gradient:visited {
+button.btn-width-bg:visited, button.login:visited, button.get-started:visited, button.border-gradient:visited, input.btn-width-bg:visited, input.login:visited, input.get-started:visited, input.border-gradient:visited, a.btn-width-bg:visited, a.login:visited, a.get-started:visited, a.border-gradient:visited, input[type=checkbox].btn-width-bg:visited, input[type=checkbox].login:visited, input[type=checkbox].get-started:visited, input[type=checkbox].border-gradient:visited {
   outline: 0;
   box-shadow: none;
 }
-button.btn-width-bg:hover, button.btn-width-bg:active, button.btn-width-bg:focus, button.login:hover, button.login:active, button.login:focus, button.get-started:hover, button.get-started:active, button.get-started:focus, button.border-gradient:hover, button.border-gradient:active, button.border-gradient:focus, input.btn-width-bg:hover, input.btn-width-bg:active, input.btn-width-bg:focus, input.login:hover, input.login:active, input.login:focus, input.get-started:hover, input.get-started:active, input.get-started:focus, input.border-gradient:hover, input.border-gradient:active, input.border-gradient:focus, input[type=checkbox].btn-width-bg:hover, input[type=checkbox].btn-width-bg:active, input[type=checkbox].btn-width-bg:focus, input[type=checkbox].login:hover, input[type=checkbox].login:active, input[type=checkbox].login:focus, input[type=checkbox].get-started:hover, input[type=checkbox].get-started:active, input[type=checkbox].get-started:focus, input[type=checkbox].border-gradient:hover, input[type=checkbox].border-gradient:active, input[type=checkbox].border-gradient:focus {
+button.btn-width-bg:hover, button.btn-width-bg:active, button.btn-width-bg:focus, button.login:hover, button.login:active, button.login:focus, button.get-started:hover, button.get-started:active, button.get-started:focus, button.border-gradient:hover, button.border-gradient:active, button.border-gradient:focus, input.btn-width-bg:hover, input.btn-width-bg:active, input.btn-width-bg:focus, input.login:hover, input.login:active, input.login:focus, input.get-started:hover, input.get-started:active, input.get-started:focus, input.border-gradient:hover, input.border-gradient:active, input.border-gradient:focus, a.btn-width-bg:hover, a.btn-width-bg:active, a.btn-width-bg:focus, a.login:hover, a.login:active, a.login:focus, a.get-started:hover, a.get-started:active, a.get-started:focus, a.border-gradient:hover, a.border-gradient:active, a.border-gradient:focus, input[type=checkbox].btn-width-bg:hover, input[type=checkbox].btn-width-bg:active, input[type=checkbox].btn-width-bg:focus, input[type=checkbox].login:hover, input[type=checkbox].login:active, input[type=checkbox].login:focus, input[type=checkbox].get-started:hover, input[type=checkbox].get-started:active, input[type=checkbox].get-started:focus, input[type=checkbox].border-gradient:hover, input[type=checkbox].border-gradient:active, input[type=checkbox].border-gradient:focus {
   box-shadow: none;
 }
-button.login, input.login, input[type=checkbox].login {
+button.login, input.login, a.login, input[type=checkbox].login {
   padding-left: 60px;
   padding-right: 60px;
   text-transform: uppercase;
 }
-button.get-started, input.get-started, input[type=checkbox].get-started {
+button.get-started, input.get-started, a.get-started, input[type=checkbox].get-started {
   padding-left: 40px;
   padding-right: 40px;
   z-index: 1000;
   left: 0;
 }
-button.btn-width-bg, input.btn-width-bg, input[type=checkbox].btn-width-bg {
+button.btn-width-bg, input.btn-width-bg, a.btn-width-bg, input[type=checkbox].btn-width-bg {
   font-size: 20px;
   font-family: "NeueHaasUnicaExtraBold";
   color: #fff;
@@ -109,10 +109,10 @@ button.btn-width-bg, input.btn-width-bg, input[type=checkbox].btn-width-bg {
   border-radius: 28.5px;
   outline: none;
 }
-button.btn-width-bg:hover, button.btn-width-bg:active, button.btn-width-bg:focus, input.btn-width-bg:hover, input.btn-width-bg:active, input.btn-width-bg:focus, input[type=checkbox].btn-width-bg:hover, input[type=checkbox].btn-width-bg:active, input[type=checkbox].btn-width-bg:focus {
+button.btn-width-bg:hover, button.btn-width-bg:active, button.btn-width-bg:focus, input.btn-width-bg:hover, input.btn-width-bg:active, input.btn-width-bg:focus, a.btn-width-bg:hover, a.btn-width-bg:active, a.btn-width-bg:focus, input[type=checkbox].btn-width-bg:hover, input[type=checkbox].btn-width-bg:active, input[type=checkbox].btn-width-bg:focus {
   background: linear-gradient(to right, #cb01d3, #830dce);
 }
-button.btn-width-border, input.btn-width-border, input[type=checkbox].btn-width-border {
+button.btn-width-border, input.btn-width-border, a.btn-width-border, input[type=checkbox].btn-width-border {
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
   color: #282828;
@@ -126,14 +126,14 @@ button.btn-width-border, input.btn-width-border, input[type=checkbox].btn-width-
   text-align: center;
   padding: 0;
 }
-button.btn-width-border.add-more-btn, input.btn-width-border.add-more-btn, input[type=checkbox].btn-width-border.add-more-btn {
+button.btn-width-border.add-more-btn, input.btn-width-border.add-more-btn, a.btn-width-border.add-more-btn, input[type=checkbox].btn-width-border.add-more-btn {
   color: #e301ec;
 }
-button.btn-width-border:hover, button.btn-width-border:active, button.btn-width-border:focus, input.btn-width-border:hover, input.btn-width-border:active, input.btn-width-border:focus, input[type=checkbox].btn-width-border:hover, input[type=checkbox].btn-width-border:active, input[type=checkbox].btn-width-border:focus {
+button.btn-width-border:hover, button.btn-width-border:active, button.btn-width-border:focus, input.btn-width-border:hover, input.btn-width-border:active, input.btn-width-border:focus, a.btn-width-border:hover, a.btn-width-border:active, a.btn-width-border:focus, input[type=checkbox].btn-width-border:hover, input[type=checkbox].btn-width-border:active, input[type=checkbox].btn-width-border:focus {
   background-image: linear-gradient(rgba(241, 241, 241, 0.88), #fff), radial-gradient(circle at top left, #e301ec, #920fe6);
   transition: background-image 1s ease;
 }
-button.smarter-button, input.smarter-button, input[type=checkbox].smarter-button {
+button.smarter-button, input.smarter-button, a.smarter-button, input[type=checkbox].smarter-button {
   position: relative;
   height: 60px;
   width: 170px;
@@ -141,7 +141,7 @@ button.smarter-button, input.smarter-button, input[type=checkbox].smarter-button
   padding-left: 30px;
   font-size: 16px;
 }
-button.smarter-button:before, input.smarter-button:before, input[type=checkbox].smarter-button:before {
+button.smarter-button:before, input.smarter-button:before, a.smarter-button:before, input[type=checkbox].smarter-button:before {
   content: url("../img/start.png");
   position: absolute;
   z-index: 1000;
@@ -356,6 +356,18 @@ body .footer .footer-social .twitter .fab.fa-spotify {
 }
 body .footer .footer-social .youtube .fab.fa-youtube {
   color: #f61c0d;
+}
+
+.w-80p {
+  width: 80%;
+}
+
+.text-purple {
+  color: #9b0de7;
+}
+
+.dark-purple {
+  color: #28042b;
 }
 
 body {

@@ -1,0 +1,68 @@
+/*start grid layout */
+.item-header {
+  grid-area: header
+}
+
+.item-sidebar {
+  grid-area: sidebar
+}
+
+.item-dashboard {
+  grid-area: dashboard
+}
+
+.item-content {
+  grid-area: content
+}
+
+
+.item-search {
+  grid-area: item-search
+}
+.item-artists {
+  grid-area: item-artists
+}
+
+.item-pagination {
+  grid-area: pagination
+}
+
+//.item-select {
+//  grid-area: item-select
+//}
+
+.item-footer {
+  grid-area: footer
+}
+
+.container-grid {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: 290px repeat(4, minmax(50px, 1fr));
+
+  grid-template-rows: 75px minmax(100px, 1fr) minmax(100px, auto);
+  grid-template-areas:
+
+                "header header header header header "
+                "sidebar content content content content"
+                "sidebar footer footer footer footer"
+}
+
+.item-content {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-rows: 75px minmax(100px, 1fr) ;
+  grid-template-areas:
+          //"item-select item-select item-select"
+          "item-search"
+          "item-artists"
+          "pagination"
+
+}
+
+/*end grid layout*/
+
+.item-sidebar {
+  background-image: url("../img/left-sidebar-bg.png");
+  background-size: cover;
+}

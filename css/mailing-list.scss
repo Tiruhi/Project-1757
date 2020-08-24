@@ -1,45 +1,9 @@
 @import "grid-layout-mailing-list";
 @import "dashboard";
+@import "footer";
 
 .item-dashboard {
   margin-right: 15px;
-}
-
-.item-footer {
-  background-color: #29042c;
-  margin-top: -15px;
-  margin-left: -15px;
-
-  .item-purple {
-
-  }
-
-  .item-footer-content {
-    background-image: url(../img/dashboard-page-bg.png);
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover;
-
-    .item-footer-logo {
-      margin: 15px auto 30px;
-
-      img {
-        margin-top: 30px;
-
-      }
-    }
-
-    .item-footer-text {
-      font-size: 18px;
-      padding-bottom: 40px;
-
-      a {
-        color: #9b0de7;
-      }
-    }
-  }
 }
 
 .item-big-title {

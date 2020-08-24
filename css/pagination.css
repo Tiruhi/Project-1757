@@ -1,0 +1,52 @@
+.item-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  background-color: #fff;
+  padding: 5px 40px;
+  margin-right: 15px;
+}
+.item-search .h1 {
+  font-size: 30px;
+  color: #28042b;
+  margin-bottom: 0 !important;
+}
+.item-search .search-form {
+  display: flex;
+  position: relative;
+  width: 30%;
+}
+.item-search .search-form ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #28042b;
+  opacity: 1;
+  /* Firefox */
+}
+.item-search .search-form :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #28042b;
+}
+.item-search .search-form ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #28042b;
+}
+.item-search .search-form .input-search {
+  border-radius: 10px;
+  height: 40px !important;
+  color: #28042b;
+  font-size: 14px;
+  font-style: italic;
+}
+.item-search .search-form .btn-search {
+  background: url("../img/artist-search.png") no-repeat;
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  color: transparent;
+  position: absolute;
+  right: 0;
+}
+
+/*# sourceMappingURL=pagination.css.map */
