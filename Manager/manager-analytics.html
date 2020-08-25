@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <!--jQuery-->
+
+    <!--start bootstrap-->
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <!--end bootstrap-->
+
+    <!--start fonts-->
+    <link href="http://allfont.ru/allfont.css?fonts=open-sans-semibold" rel="stylesheet" type="text/css"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!--end fonts-->
+
+    <!--start select2-->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet"/>
+    <!--end select2-->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+    <link rel="shortcut icon" type="image/ico" href="../img/favicon.ico"/>
+
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/brands.min.css">
+
+    <link rel="stylesheet" type="text/css" href="../css/analytics.css">
+    <link rel="stylesheet" type="text/css" href="../css/input-range-analytics-styles.css">
+
+    <title>beatlify</title>
+
+</head>
+
+<body>
+
+<div class="container-grid">
+    <!--start header-->
+    <header class="grid-item item-header container-fluid no-gutters header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a href="/" class="navbar-brand logo">
+                <img src="../img/logo.png" alt="beatlify">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <div class="my-2 my-lg-0 ml-auto">
+                    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                        <div class="btn-group" role="group">
+                            <button id="btnGroupDrop1" type="button" class="btn dropdown-toggle" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                <img src="../img/lang-uk.png" alt="UK" class="lang">
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                <a class="dropdown-item" href="#">Dropdown link</a>
+                                <a class="dropdown-item" href="#">Dropdown link</a>
+                            </div>
+                        </div>
+                        <div class="btn-group" role="group">
+                            <button id="btnGroupDrop2" type="button" class="btn dropdown-toggle" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                <img src="../img/avatar-small.png" alt="avatar" class="avatar">
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="btnGroupDrop2">
+                                <a class="dropdown-item" href="#">Dropdown link</a>
+                                <a class="dropdown-item" href="#">Dropdown link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </nav>
+    </header>
+    <!--end header-->
+
+    <!--start sidebar-->
+    <div class="grid-item item-sidebar">
+        <!-- Sidebar navigation -->
+        <div class="d-flex justify-content-start">
+            <ul class="w-100 menu-nav ">
+                <!-- Logo -->
+                <li>
+                    <div class="logo-wrapper waves-light d-block">
+                        <a href="#">
+                            <img src="../img/avatar-big.png" class="d-flex m-auto">
+                            <div class="user-name">Full User Name</div>
+                        </a>
+                    </div>
+                </li>
+                <!--/. Logo -->
+                <!--Social-->
+                <li>
+                    <ul class="social d-flex justify-content-center">
+                        <li>
+                            <a href="#" class="social-icon">
+                                <i class="fas fa-user"></i>
+                            </a>
+                        </li>
+                        <li><a href="#" class="social-icon"><i class="fas fa-home"></i></a></li>
+                        <li><a href="#" class="social-icon"><i class="fas fa-file-export"></i></a></li>
+                    </ul>
+                </li>
+                <!--/Social-->
+
+                <!-- Side navigation links -->
+                <li>
+
+                    <ul class="left-navbar-links w-100 d-flex flex-column">
+                        <li class="left-navbar-link-wrap left-navbar-links-group">
+                            <h3>tools</h3>
+                        </li>
+                        <li class="left-navbar-link-wrap active">
+                            <a href="#" class="waves-effect left-navbar-link">
+                                <i class="fas fa-file-alt"></i>Dashboard</a>
+                        </li>
+                        <li class="left-navbar-link-wrap">
+                            <a href="#" class="waves-effect left-navbar-link">
+                                <i class="fas fa-link"></i>Smartlinks</a>
+                        </li>
+                        <li class="left-navbar-link-wrap">
+                            <a href="#" class="waves-effect left-navbar-link">
+                                <i class="fas fa-file-alt"></i>Artist page</a>
+                        </li>
+                        <li class="left-navbar-link-wrap"><a href="#" class="waves-effect left-navbar-link">
+                            <i class="fas fa-file-alt"></i>Analytics</a>
+                        </li>
+                        <li class="left-navbar-link-wrap"><a href="#" class="waves-effect left-navbar-link">
+                            <i class="fas fa-envelope"></i>Mailing List</a>
+                        </li>
+                        <li class="left-navbar-link-wrap"><a href="#" class="waves-effect left-navbar-link">
+                            <i class="fas fa-cog"></i>Advanced options</a>
+                        </li>
+
+                        <li class="left-navbar-link-wrap left-navbar-links-group">
+                            <h3>account</h3>
+                        </li>
+                        <li class="left-navbar-link-wrap"><a href="#" class="waves-effect left-navbar-link">
+                            <i class="far fa-user-circle"></i>Profile</a>
+                        </li>
+                                                <li class="left-navbar-link-wrap"><a href="#" class="waves-effect left-navbar-link">
+                                                    <i class="fas fa-file-alt"></i>Billing</a>
+                                                </li>
+                        <li class="left-navbar-link-wrap"><a href="#" class="waves-effect left-navbar-link">
+                            <i class="fas fa-sign-out-alt"></i>Log Out</a>
+                        </li>
+
+
+                    </ul>
+                </li>
+
+            </ul>
+
+        </div>
+        <!--/. Sidebar navigation -->
+
+    </div>
+    <!--end sidebar-->
+
+    <!--start content-->
+
+    <div class="grid-item item-dashboard d-flex">
+        <h1>Analytics</h1>
+        <div class="btn-group ml-auto">
+            <a class="page" href="">Home</a>
+            <span class="slash">/</span>
+            <a class="page active" href="">Analytics</a>
+        </div>
+    </div>
+
+    <div class="grid-item item-sub-title sub-title-wrap">
+        <div class="choose-artist-wrap">
+            <label for="selectArtist" class="choose-artist-label d-flex">
+                Choose the artist:
+            </label>
+            <!--        <div class="select2-container">-->
+            <select class=" js-states form-control select-artist" id="selectArtist">
+                <option>Artist 1</option>
+                <option>Artist 2</option>
+            </select>
+            <!--        </div>-->
+        </div>
+        <div class="title">
+            <h2 class="h2">
+                Option
+            </h2>
+        </div>
+
+    </div>
+
+    <div class="grid-item item-single-visits">
+        <h3 class="item-single-visits-title">
+            Single visits
+        </h3>
+        <div class="card">
+            <div class="chart-div">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col" class="item-visits-chart-big-th">Visits</th>
+                        <th scope="col" class="item-visits-chart-big-th">
+                            Click - Throughs
+                        </th>
+                        <th scope="col" class="item-visits-chart-big-th">
+                            CTR
+                        </th>
+                        <th scope="col" class="item-visits-chart-big-th">28 days</th>
+                    </tr>
+                    <tr>
+                        <th scope="col" class="item-visits-chart-small-th text-center">7</th>
+                        <th scope="col" class="item-visits-chart-small-th text-center">5</th>
+                        <th scope="col" class="item-visits-chart-small-th text-center">71.43%</th>
+                        <th scope="col" class="item-visits-chart-small-th text-center"></th>
+                    </tr>
+                    </thead>
+                </table>
+                <canvas id="singleVisitsChart" width="600"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid-item item-views">
+
+        <h3 class="item-views-title">
+            Views
+        </h3>
+        <div class="card">
+            <div class="chart-div">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col" class="item-visits-chart-big-th">Visits</th>
+                        <th scope="col" class="item-visits-chart-big-th">
+                            Click - Throughs
+                        </th>
+
+                        <th scope="col" class="item-visits-chart-big-th">28 days</th>
+                    </tr>
+                    <tr>
+                        <th scope="col" class="item-visits-chart-small-th text-center">1028</th>
+                        <th scope="col" class="item-visits-chart-small-th text-center">1570</th>
+                        <th scope="col" class="item-visits-chart-small-th text-center"></th>
+                    </tr>
+                    </thead>
+                </table>
+                <canvas id="viewsChart" width="600" height=""></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid-item item-popular-links">
+        <div class="card">
+            <div class="card-header p-0">
+
+                <div class="btn-group" role="group">
+                    <button id="btnGroupDrop" type="button" class="btn dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                        Most popular links
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-custom-styles" aria-labelledby="btnGroupDrop">
+                        <a class="dropdown-item" href="#">Dropdown link</a>
+                        <a class="dropdown-item" href="#">Dropdown link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="range5">
+                        <span class="badge-pill pull-left range-label-wrap"> <label for="range5" class="range-label">Project 1</label></span>
+                        <input id="range5" name="range5" type="range" class="range" min="0" max="250" value="123">
+                    </div>
+
+                    <div class="range6">
+                        <span class="badge-pill pull-left range-label-wrap"> <label for="range6" class="range-label">Project 2</label></span>
+                        <input id="range6" name="range6" type="range" class="range" min="0" max="250" value="220">
+                    </div>
+
+                    <div class="range7">
+                        <span class="badge-pill pull-left range-label-wrap"> <label for="range7" class="range-label">Project 3</label></span>
+                        <input id="range7" name="range7" type="range" class="range" min="0" max="250" value="123">
+                    </div>
+                    <div class="range8">
+                        <span class="badge-pill pull-left range-label-wrap"> <label for="range8" class="range-label">Project 4</label></span>
+                        <input id="range8" name="range8" type="range" class="range" min="0" max="250" value="175">
+                    </div>
+                    <div class="range9">
+                        <span class="badge-pill pull-left range-label-wrap"> <label for="range9" class="range-label">Project 5</label></span>
+                        <input id="range9" name="range9" type="range" class="range" min="0" max="250" value="100">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--end content-->
+
+    <!--start footer-->
+    <div class="grid-item item-footer d-flex flex-column justify-content-center align-self-start">
+        <!--start _purple-->
+        <div class="item-purple">
+            <div class="item-footer-content w-100">
+                <div class="item-footer-logo text-center">
+                    <img src="../img/logo.png" alt="beatlify">
+                </div>
+                <div class="item-footer-text text-center">
+                    <span>By using this service you agree to our <a href="pp">terms and privacy policy</a></span>
+                </div>
+            </div>
+        </div>
+        <!--end _purple-->
+
+    </div>
+    <!--end footer-->
+
+</div>
+
+
+<!--start scripts-->
+
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>-->
+<script src="../js/bootstrap.min.js"></script>
+
+
+<!--start select2-->
+
+<script type="text/javascript" src="../js/select2-scripts.js"></script>
+<!--end select2-->
+
+
+<!--chart js-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+<script type="text/javascript" src="../js/range-analytics.js"></script>
+<script type="text/javascript" src="../js/visits_views_chart.js"></script>
+
+<!--end scripts-->
+
+</body>
+<script>
+
+</script>
+</html>

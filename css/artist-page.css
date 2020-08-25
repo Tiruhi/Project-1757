@@ -428,6 +428,14 @@ body .footer .footer-social .youtube .fab.fa-youtube {
   color: #28042b;
 }
 
+.transform-none {
+  transform: none !important;
+}
+
+.left-0 {
+  left: 0;
+}
+
 .navbar {
   padding: 0 !important;
   box-shadow: none;
@@ -609,7 +617,7 @@ body .footer .footer-social .youtube .fab.fa-youtube {
 .sub-title-wrap {
   background-image: url(../img/purple-horisontal-bg.png);
   padding: 20px 0 20px 30px;
-  min-height: 105px;
+  max-height: 105px;
   display: flex;
 }
 .sub-title-wrap .choose-artist-wrap {
@@ -1368,6 +1376,10 @@ ul, li {
   font-size: 30px;
   color: #28042b;
   margin-bottom: 0 !important;
+}
+.item-search .h1 a {
+  color: #28042b;
+  cursor: pointer;
 }
 .item-search .search-form {
   display: flex;

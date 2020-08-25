@@ -15,7 +15,7 @@
 .container-grid {
   display: grid;
   grid-gap: 15px;
-  grid-template-rows: 75px 50px 50px repeat(3,  minmax(100px, auto)) ;
+  grid-template-rows: 75px 50px  minmax(50px, auto) repeat(3,  minmax(100px, auto)) ;
 
   grid-template-columns: 290px repeat(4, minmax(50px, 1fr));
   grid-template-areas:

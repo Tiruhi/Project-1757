@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <!--jQuery-->
+    <!-- start  Map    -->
+    <link href="../js/JQVMAP/jqvmap.css" media="screen" rel="stylesheet" type="text/css"/>
+
+    <!--    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>-->
+    <script type="text/javascript" src="../js/JQVMAP/jquery.vmap.js"></script>
+    <script type="text/javascript" src="../js/JQVMAP/jquery.vmap.world.js" charset="utf-8"></script>
+    <script type="text/javascript" src="../js/JQVMAP/jquery.vmap.sampledata.js"></script>
+
+    <script>
+        jQuery(document).ready(function () {
+            jQuery('#vmap').vectorMap({
+                map: 'world_en',
+                backgroundColor: '#fff',
+                color: '#ffffff',
+                hoverOpacity: 0.7,
+                selectedColor: '#666666',
+                enableZoom: true,
+                showTooltip: true,
+                scaleColors: ['#C8EEFF', '#0071bb'],
+                values: sample_data,
+                normalizeFunction: 'polynomial',
+                responsive: true
+            });
+        });
+    </script>
+    <!-- end  Map    -->
+
+    <!--start bootstrap-->
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <!--end bootstrap-->
+
+    <!--start fonts-->
+    <link href="http://allfont.ru/allfont.css?fonts=open-sans-semibold" rel="stylesheet" type="text/css"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!--end fonts-->
+
+    <!--start select2-->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet"/>
+    <!--end select2-->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+    <link rel="shortcut icon" type="image/ico" href="../img/favicon.ico"/>
+
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/brands.min.css">
+
+    <link rel="stylesheet" type="text/css" href="../css/grid-layout.css">
+    <link rel="stylesheet" type="text/css" href="../css/dashboard.css">
+    <link rel="stylesheet" type="text/css" href="../css/input-range-styles.css">
+    <title>beatlify</title>
+
+</head>
+
+<body>
+
+<div class="container-grid">
+    <!--start header-->
+
+    <header class="grid-item item-header container-fluid no-gutters header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a href="/" class="navbar-brand logo">
+                <img src="../img/logo.png" alt="beatlify">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <div class="my-2 my-lg-0 ml-auto">
+                    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                        <div class="btn-group" role="group">
+                            <button id="btnGroupDrop1" type="button" class="btn dropdown-toggle" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                <img src="../img/lang-uk.png" alt="UK" class="lang">
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                <a class="dropdown-item" href="#">Dropdown link</a>
+                                <a class="dropdown-item" href="#">Dropdown link</a>
+                            </div>
+                        </div>
+                        <div class="btn-group" role="group">
+                            <button id="btnGroupDrop2" type="button" class="btn dropdown-toggle" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                <img src="../img/avatar-small.png" alt="avatar" class="avatar">
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="btnGroupDrop2">
+                                <a class="dropdown-item" href="#">Dropdown link</a>
+                                <a class="dropdown-item" href="#">Dropdown link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </nav>
+    </header>
+
+    <!--end header-->
+
+    <div class="grid-item item-dashboard d-flex align-items-center align-self-center">
+        <h1 class="font-weight-bold">Dashboard</h1>
+        <div class="btn-group ml-auto">
+            <a class="page" href="">Home</a>
+            <span class="slash">/</span>
+            <a class="page active" href="">Analytics</a>
+        </div>
+    </div>
+    <div class="grid-item item-select-smartlink d-flex">
+        <label for="selectSmartlink" class="smartlink-label d-flex">
+            Select a Smartlink
+            <span class="pl-1"> &#62;</span>
+        </label>
+        <!--        <div class="select2-container">-->
+        <select class="js-example-basic-single js-states form-control select-smartlink" id="selectSmartlink">
+            <option>Test 1</option>
+            <option>Test 2</option>
+            <option>Test 3</option>
+        </select>
+        <!--        </div>-->
+    </div>
+
+    <div class="grid-item item-sidebar" id="sidebar">
+        <a class="sidebar-toggle" id="s">
+            <i class="fas fa-bars text-white"></i>
+        </a>
+        <!-- Sidebar navigation -->
+        <div class=" justify-content-start item-sidebar-content">
+
+            <ul class="w-100 menu-nav ">
+                <!-- Logo -->
+                <li>
+                    <div class="logo-wrapper waves-light d-block">
+                        <a href="#">
+                            <img src="../img/avatar-big.png" class="d-flex m-auto">
+                            <div class="user-name">Full User Name</div>
+                        </a>
+                    </div>
+                </li>
+                <!--/. Logo -->
+                <!--Social-->
+                <li>
+                    <ul class="social d-flex justify-content-center">
+                        <li>
+                            <a href="#" class="social-icon">
+                                <i class="fas fa-user"></i>
+                            </a>
+                        </li>
+                        <li><a href="#" class="social-icon"><i class="fas fa-home"></i></a></li>
+                        <li><a href="#" class="social-icon"><i class="fas fa-file-export"></i></a></li>
+                    </ul>
+                </li>
+                <!--/Social-->
+
+                <!-- Side navigation links -->
+                <li>
+
+                    <ul class="left-navbar-links w-100 d-flex flex-column">
+                        <li class="left-navbar-link-wrap left-navbar-links-group">
+                            <h3>tools</h3>
+                        </li>
+                        <li class="left-navbar-link-wrap active">
+                            <a href="#" class="waves-effect left-navbar-link">
+                                <i class="fas fa-file-alt"></i>Dashboard</a>
+                        </li>
+                        <li class="left-navbar-link-wrap">
+                            <a href="#" class="waves-effect left-navbar-link">
+                                <i class="fas fa-link"></i>Smartlinks</a>
+                        </li>
+                        <li class="left-navbar-link-wrap">
+                            <a href="#" class="waves-effect left-navbar-link">
+                                <i class="fas fa-file-alt"></i>Artist page</a>
+                        </li>
+                        <li class="left-navbar-link-wrap"><a href="#" class="waves-effect left-navbar-link">
+                            <i class="fas fa-file-alt"></i>Analytics</a>
+                        </li>
+                        <li class="left-navbar-link-wrap"><a href="#" class="waves-effect left-navbar-link">
+                            <i class="fas fa-envelope"></i>Mailing List</a>
+                        </li>
+                        <li class="left-navbar-link-wrap"><a href="#" class="waves-effect left-navbar-link">
+                            <i class="fas fa-cog"></i>Advanced options</a>
+                        </li>
+
+                        <li class="left-navbar-link-wrap left-navbar-links-group">
+                            <h3>account</h3>
+                        </li>
+                        <li class="left-navbar-link-wrap"><a href="#" class="waves-effect left-navbar-link">
+                            <i class="far fa-user-circle"></i>Profile</a>
+                        </li>
+                        <li class="left-navbar-link-wrap"><a href="#" class="waves-effect left-navbar-link">
+                            <i class="fas fa-file-alt"></i>Billing</a>
+                        </li>
+                        <li class="left-navbar-link-wrap"><a href="#" class="waves-effect left-navbar-link">
+                            <i class="fas fa-sign-out-alt"></i>Log Out</a>
+                        </li>
+
+
+                    </ul>
+                </li>
+
+            </ul>
+
+        </div>
+        <!--/. Sidebar navigation -->
+
+    </div>
+
+
+    <div class="grid-item item-single-visits">
+        <div class="card">
+            <div class="card-body">
+                <div class="list-group list-group-flush">
+                    <div class="list-group-item list-group-item-action question-wrap ">
+                        Single visits
+                        <span class="badge badge-danger badge-pill pull-right question">?</span>
+                    </div>
+                </div>
+
+                <form>
+                    <span class="badge badge-danger badge-pill pull-right range-label-wrap"> <label for="range1"
+                                                                                                    class="range-label">New</label></span>
+
+                    <input id="range1" name="range1" type="range" class="range" min="0" max="15" value="12">
+                </form>
+
+
+            </div>
+        </div>
+
+    </div>
+    <div class="grid-item item-views">
+        <div class="card">
+            <div class="card-body">
+                <div class="list-group list-group-flush">
+                    <div class="list-group-item list-group-item-action question-wrap ">
+                        Views
+                        <span class="badge badge-primary badge-pill pull-right question">?</span>
+                    </div>
+                </div>
+
+                <form>
+                    <span class="badge badge-primary badge-pill pull-right range-label-wrap"> <label for="range2"
+                                                                                                     class="range-label">New</label></span>
+
+                    <input id="range2" name="range2" type="range" class="range" min="0" max="1500" value="1120">
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="grid-item item-link-cliks">
+        <div class="card">
+            <div class="card-body">
+                <div class="list-group list-group-flush">
+                    <div class="list-group-item list-group-item-action question-wrap ">
+                        Link cliks
+                        <span class="badge badge-primary badge-pill pull-right question">?</span>
+                    </div>
+                </div>
+
+                <form>
+
+                    <span class="badge badge-success badge-pill pull-right range-label-wrap "> <label for="range3"
+                                                                                                      class="range-label">New</label></span>
+
+                    <input id="range3" name="range3" type="range" class="range" min="0" max="5000" value="2750">
+                </form>
+
+
+            </div>
+        </div>
+
+    </div>
+    <div class="grid-item item-click-rate">
+        <div class="range4">
+            <div class="card">
+                <div class="card-body">
+                    <div class="list-group list-group-flush">
+                        <div class="list-group-item list-group-item-action question-wrap ">
+                            Click rate
+                            <span class="badge badge-primary badge-pill pull-right question">?</span>
+                        </div>
+                    </div>
+
+                    <form>
+                    <span class="badge badge-warning badge-pill pull-right range-label-wrap "> <label for="range4"
+                                                                                                      class="range-label"><img
+                            src="../img/range-circle-orange-img.png" alt=""></label></span>
+
+                        <input id="range4" name="range4" type="range" class="range" min="0" max="50" value="27">
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-item item-visits-chart">
+        <div class="card">
+        <div class="chart-div">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col" class="item-visits-chart-big-th">Visits</th>
+                    <th scope="col" class="item-visits-chart-big-th">
+                        Click - Throughs
+                    </th>
+                    <th scope="col" class="item-visits-chart-big-th">
+                        CTR
+                    </th>
+                    <th scope="col" class="item-visits-chart-big-th">28 days</th>
+                </tr>
+                <tr>
+                    <th scope="col" class="item-visits-chart-small-th text-left">7</th>
+                    <th scope="col" class="item-visits-chart-small-th text-center">5</th>
+                    <th scope="col" class="item-visits-chart-small-th text-center">71.43%</th>
+                    <th scope="col" class="item-visits-chart-small-th text-center"></th>
+                </tr>
+                </thead>
+            </table>
+            <canvas id="item_visits_chart" width="600" height=""></canvas>
+        </div>
+        </div>
+    </div>
+    <div class="grid-item item-links-chart">
+        <div class="card">
+            <div class="card-header p-0">
+
+                <div class="btn-group" role="group">
+                    <button id="btnGroupDrop" type="button" class="btn dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                        Tasks Overview
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-custom-styles" aria-labelledby="btnGroupDrop">
+                        <a class="dropdown-item" href="#">Dropdown link</a>
+                        <a class="dropdown-item" href="#">Dropdown link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="range5">
+                        <span class="badge-pill pull-left range-label-wrap"> <label for="range5" class="range-label">Project 1</label></span>
+                        <input id="range5" name="range5" type="range" class="range" min="0" max="250" value="123">
+                    </div>
+
+                    <div class="range6">
+                        <span class="badge-pill pull-left range-label-wrap"> <label for="range6" class="range-label">Project 2</label></span>
+                        <input id="range6" name="range6" type="range" class="range" min="0" max="250" value="220">
+                    </div>
+
+                    <div class="range7">
+                        <span class="badge-pill pull-left range-label-wrap"> <label for="range7" class="range-label">Project 3</label></span>
+                        <input id="range7" name="range7" type="range" class="range" min="0" max="250" value="123">
+                    </div>
+                    <div class="range8">
+                        <span class="badge-pill pull-left range-label-wrap"> <label for="range8" class="range-label">Project 4</label></span>
+                        <input id="range8" name="range8" type="range" class="range" min="0" max="250" value="175">
+                    </div>
+                    <div class="range9">
+                        <span class="badge-pill pull-left range-label-wrap"> <label for="range9" class="range-label">Project 5</label></span>
+                        <input id="range9" name="range9" type="range" class="range" min="0" max="250" value="100">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid-item item-music-services">
+
+        <div class="card">
+            <table class="table">
+                <thead>
+                <tr class="border-0">
+                    <th scope="col" class="d-flex flex-column border-0">
+                        <h4 class="item-music-services-title">Services</h4>
+                    </th>
+                    <th scope="col" class="text-uppercase border-0">
+                        <h4 class="item-music-services-title text-right align-top">5</h4>
+                    </th>
+
+                </tr>
+                <tr class="w-100 ">
+
+                    <th class=" d-flex justify-content-start w-100 border-0">
+                        <span class="text-uppercase item-music-services-subtitle">#Services</span>
+                    </th>
+                    <th class="border-0"></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="tr tr-spotify">
+                    <th scope="row align-middle"><span class="num ">1</span> <i class="fab fa-spotify"></i> Spotify</th>
+                    <td>
+                        <form style="margin-bottom: 15px;">
+                            <div class="range14" dir="rtl">
+                                <input id="range14" name="range14" type="range" dir="rtl" class="range reversedRange"
+                                       style="transform: rotate(-180deg)" min="0" max="5" value="3">
+                            </div>
+                        </form>
+                    </td>
+                </tr>
+                <tr class="tr tr-apple-music">
+                    <th scope="row align-middle"><span class="num ">2</span>
+                        <img src="../img/apple-music-icon.png" alt="Apple Music"/>
+
+                        Apple Music
+                    </th>
+                    <td>
+                        <form>
+                            <div class="range15" dir="rtl">
+                                <input id="range15" name="range8" type="range" class="range" min="0" max="5" value="2"
+                                       class="range reversedRange"
+                                       style="transform: rotate(-180deg)">
+                            </div>
+                        </form>
+                    </td>
+                </tr>
+                <tr class="tr tr-deezer">
+                    <th scope="row align-middle"><span class="num ">3</span>
+                        <img src="../img/deezer-icon.png" alt="Deezer"/>
+
+                        Deezer
+                    </th>
+                    <td>
+                        <form>
+                            <div class="range16" dir="rtl">
+                                <input id="range16" name="range16" type="range" dir="rtl" class="range reversedRange"
+                                       style="transform: rotate(-180deg)" min="0" max="5" value="1">
+                            </div>
+                        </form>
+                    </td>
+                </tr>
+
+                </tbody>
+            </table>
+
+        </div>
+
+    </div>
+    <div class="grid-item item-sources">
+        <table class="table table-sm">
+            <thead>
+            <tr>
+                <th scope="col" colspan="2" class="item-sources-big-th">Sources</th>
+                <th scope="col" class="text-right pr-3">
+                    <span class="badge badge-pill badge-danger">Referers</span>
+
+                </th>
+                <th scope="col" class="item-sources-horisontal-th">Affiliate ID</th>
+            </tr>
+            <tr>
+                <th scope="col" class="item-sources-horisontal-th text-left"># Referer</th>
+                <th scope="col" class="item-sources-horisontal-th text-center">Visits</th>
+                <th scope="col" class="item-sources-horisontal-th text-center">Click-throughs</th>
+                <th scope="col" class="item-sources-horisontal-th text-center">CTR</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row" class="item-sources-vertical-th"><span>1</span> <i class="fab fa-dyalog"></i> Direct
+                </th>
+                <td>6</td>
+                <td>5</td>
+                <td>83.3%</td>
+            </tr>
+            <tr>
+                <th scope="row" class="item-sources-vertical-th"><span>2</span> <i class="fab fa-dyalog"></i> Facebook
+                </th>
+                <td>6</td>
+                <td>5</td>
+                <td>47.25%</td>
+            </tr>
+            <tr>
+                <th scope="row" class="item-sources-vertical-th"><span>3</span> <i class="fab fa-dyalog"></i> Instagram
+                </th>
+                <td>6</td>
+                <td>5</td>
+                <td>88.21%</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="grid-item item-fb-shares">
+        <div class="range10">
+            <div class="card">
+                <div class="card-body">
+                    <div class="list-group list-group-flush">
+                        <div class="list-group-item list-group-item-action question-wrap ">
+                            Facebook shares
+                            <span class="badge  badge-secondary badge-pill pull-right question">?</span>
+                        </div>
+                    </div>
+
+                    <form>
+                        <span class="badge  badge-pill pull-right range-label-wrap"> <label for="range10"
+                                                                                            class="range-label"><i
+                                class="fab fa-facebook-f"></i>Facebook</label></span>
+
+                        <input id="range10" name="range10" type="range" class="range" min="0" max="15" value="12">
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-item item-twitter-shares">
+        <div class="range11">
+            <div class="card">
+                <div class="card-body">
+                    <div class="list-group list-group-flush">
+                        <div class="list-group-item list-group-item-action question-wrap ">
+                            Twitter shares
+                            <span class="badge  badge-secondary badge-pill pull-right question">?</span>
+                        </div>
+                    </div>
+
+                    <form>
+                        <span class="badge  badge-pill pull-right range-label-wrap"> <label for="range11"
+                                                                                            class="range-label"><i
+                                class="fab fa-twitter"></i>Twitter</label></span>
+
+                        <input id="range11" name="range11" type="range" class="range" min="0" max="15" value="12">
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-item item-insta-shares">
+        <div class="range12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="list-group list-group-flush">
+                        <div class="list-group-item list-group-item-action question-wrap ">
+                            Instagram shares
+                            <span class="badge  badge-secondary badge-pill pull-right question">?</span>
+                        </div>
+                    </div>
+
+                    <form>
+                        <span class="badge  badge-pill pull-right range-label-wrap"> <label for="range12"
+                                                                                            class="range-label">
+                            <i class="fab fa-instagram"></i>Instagram</label></span>
+
+                        <input id="range12" name="range12" type="range" class="range" min="0" max="15" value="12">
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-item item-copied-links-rate">
+        <div class="range13">
+            <div class="card">
+                <div class="card-body">
+                    <div class="list-group list-group-flush">
+                        <div class="list-group-item list-group-item-action question-wrap ">
+                            Click rate
+                            <span class="badge  badge-secondary badge-pill pull-right question">?</span>
+                        </div>
+                    </div>
+
+                    <form>
+                        <span class="badge  badge-pill pull-right range-label-wrap">
+                            <label for="range13" class="range-label">
+                                <i class="fas fa-link"></i>Copied links</label></span>
+
+                        <input id="range13" name="range13" type="range" class="range" min="0" max="15" value="12">
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-item item-dashboard-bottom"><h2>Dashboard</h2></div>
+    <div class="grid-item item-map">
+
+        <div id="vmap" style="max-width: 900px; max-height: 600px"></div>
+    </div>
+
+    <div class="grid-item item-country-group-1">
+        <div class="card">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col" class="text-uppercase">Country</th>
+                    <th scope="col" class="text-uppercase">Clicks</th>
+                    <th scope="col">%</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">Italy</th>
+                    <td>29K+</td>
+                    <td>98.2%</td>
+                </tr>
+                <tr>
+                    <th scope="row">Germany</th>
+                    <td>29K+</td>
+                    <td>98.2%</td>
+                </tr>
+                <tr>
+                    <th scope="row">Unaited Kingdom</th>
+                    <td>29K+</td>
+                    <td>98.2%</td>
+                </tr>
+                <tr>
+                    <th scope="row">Spain</th>
+                    <td>29K+</td>
+                    <td>98.2%</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="grid-item item-country-group-2">
+        <div class="card">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col" class="text-uppercase">Country</th>
+                    <th scope="col" class="text-uppercase">Clicks</th>
+                    <th scope="col">%</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">Italy</th>
+                    <td>29K+</td>
+                    <td>98.2%</td>
+                </tr>
+                <tr>
+                    <th scope="row">Germany</th>
+                    <td>29K+</td>
+                    <td>98.2%</td>
+                </tr>
+                <tr>
+                    <th scope="row">Unaited Kingdom</th>
+                    <td>29K+</td>
+                    <td>98.2%</td>
+                </tr>
+                <tr>
+                    <th scope="row">Spain</th>
+                    <td>29K+</td>
+                    <td>98.2%</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+<!--start header-->
+
+<!--end header-->
+
+<!--start content-->
+
+<!--end content-->
+
+<!--start footer-->
+
+<!--end footer-->
+
+<!--start scripts-->
+
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>-->
+<script src="../js/bootstrap.min.js"></script>
+
+
+<script type="text/javascript">
+    // <!--start select2-->
+    $(document).ready(function () {
+        $('.js-example-basic-single').select2();
+    });
+    // <!--end select2-->
+
+</script>
+
+<script>
+    function sizeMap() {
+        var containerWidth = $('.item-map').width(),
+            containerHeight = (containerWidth / 1.4);
+
+        $('#vmap').css({
+            'width': containerWidth,
+            'height': containerHeight
+        });
+    }
+    sizeMap();
+    $(window).on("resize", sizeMap);
+</script>
+<!--chart js-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+<script type="text/javascript" src="../js/range.js"></script>
+<script type="text/javascript" src="../js/item_visits_chart.js"></script>
+<script type="text/javascript" src="../js/sidebar.js"></script>
+
+<!--end scripts-->
+
+</body>
+<script>
+
+</script>
+</html>

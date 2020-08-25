@@ -35,7 +35,7 @@
 .container-grid {
   display: grid;
   grid-gap: 15px;
-  grid-template-rows: auto 50px 104px minmax(100px, 1fr) 50px minmax(100px, auto);
+  grid-template-rows: auto 50px minmax(50px, 104px) minmax(100px, 1fr) 50px minmax(100px, auto);
   grid-template-columns: 290px repeat(4, minmax(50px, 1fr));
   grid-template-areas: "header header header header header" "sidebar dashboard dashboard dashboard dashboard" "sidebar big-title-1 big-title-1 big-title-1 big-title-1" "sidebar create-block create-block create-block create-block" "sidebar big-title-2 big-title-2 big-title-2 big-title-2" "sidebar links-block links-block links-block links-block" "sidebar footer footer footer footer";
 }
@@ -431,6 +431,14 @@ body .footer .footer-social .youtube .fab.fa-youtube {
   color: #28042b;
 }
 
+.transform-none {
+  transform: none !important;
+}
+
+.left-0 {
+  left: 0;
+}
+
 .navbar {
   padding: 0 !important;
   box-shadow: none;
@@ -612,7 +620,7 @@ body .footer .footer-social .youtube .fab.fa-youtube {
 .sub-title-wrap {
   background-image: url(../img/purple-horisontal-bg.png);
   padding: 20px 0 20px 30px;
-  min-height: 105px;
+  max-height: 105px;
   display: flex;
 }
 .sub-title-wrap .choose-artist-wrap {
