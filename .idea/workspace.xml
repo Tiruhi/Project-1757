@@ -20,58 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59e25de2-e001-4db5-8809-5e24c7293147" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Artist/artist-adv-options.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Artist/artist-artist-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Artist/artist-mailing-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Artist/artist-profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Artist/artist-smartlinks-add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manager/manager-artist-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manager/manager-search-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manager/manager-smart-link.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project-1757.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adv-options.html" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/manager-adv-options.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-dropdown.html" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/manager-analytics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics.html" beforeDir="false" afterPath="$PROJECT_DIR$/Artist/artist-analytics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artist-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/manager-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artist-search-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Artist/artist-search-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/billing.html" beforeDir="false" afterPath="$PROJECT_DIR$/Artist/artist-billing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/add-to-playlist.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/add-to-playlist.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/add-to-playlist.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/add-to-playlist.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/adv-options.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/adv-options.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/adv-options.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/adv-options.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/analytics.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/analytics.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/analytics.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/analytics.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/analytics.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/analytics.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/artist-page-or-share.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/artist-page-or-share.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/artist-page-or-share.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/artist-page-or-share.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/artist-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/artist-page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/artist-page.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/artist-page.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/artist-search-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/artist-search-page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/artist-search-page.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/artist-search-page.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/billing.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/billing.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/billing.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/billing.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/general-styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/general-styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid-layout-analytics.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-analytics.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/grid-layout-smartlinks-add.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/grid-layout-smartlinks-add.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/input-range-analytics-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/input-range-analytics-styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/input-range-manager-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/input-range-manager-styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mailing-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mailing-list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mailing-list.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/mailing-list.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/profile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/profile.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/profile.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/search.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/search.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/select2-dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/select2-dropdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/smartlinks-add.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/smartlinks-add.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/smartlinks-add.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/smartlinks-add.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/smartlinks.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/smartlinks.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/smartlinks.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/smartlinks.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Artist/artist-dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailing-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/manager-mailing-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager-dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/manager-dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/manager-profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smart-link.html" beforeDir="false" afterPath="$PROJECT_DIR$/Artist/artist-smart-link.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smartlinks-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/manager-smartlinks-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Artist/artist-dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Artist/artist-dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/manager-adv-options.html" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/manager-adv-options.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/manager-analytics.html" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/manager-analytics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/manager-artist-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/manager-artist-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/manager-mailing-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/manager-mailing-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/manager-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/manager-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/manager-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/manager-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/manager-search-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/manager-search-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager/manager-smart-link.html" beforeDir="false" afterPath="$PROJECT_DIR$/Manager/manager-smart-link.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +61,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Artist" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../script-app" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/dashboard.html" />
   </component>
@@ -213,7 +171,7 @@
       <workItem from="1597916053045" duration="40000" />
       <workItem from="1598002859337" duration="4888000" />
       <workItem from="1598254574506" duration="18000" />
-      <workItem from="1598254621889" duration="27516000" />
+      <workItem from="1598254621889" duration="40110000" />
     </task>
     <task id="LOCAL-00001" summary="add responcive design">
       <created>1590136789570</created>
@@ -341,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598275910006</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="create artist and manager all pages">
+      <created>1598342707497</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1598342707497</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +346,8 @@
     <MESSAGE value="add artist-or-share page&#10;fix same bugs" />
     <MESSAGE value="fix same bugs" />
     <MESSAGE value="add artist search page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add artist search page" />
+    <MESSAGE value="create artist and manager all pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="create artist and manager all pages" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1597140059037">
@@ -393,11 +359,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1597144499327" />
-    <state x="595" y="0" key="CommitChangelistDialog2" timestamp="1598275909413">
+    <state x="595" y="0" key="CommitChangelistDialog2" timestamp="1598342706803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="423" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1597156611031" />
-    <state x="595" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598275909413" />
+    <state x="595" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598342706803" />
     <state x="1784" y="123" width="1182" height="544" maximized="true" key="DiffContextDialog" timestamp="1597143475121">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
@@ -406,24 +372,24 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="351" y="142" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1589995907197" />
-    <state x="651" y="169" width="476" height="489" key="FileChooserDialogImpl" timestamp="1598254862107">
+    <state x="651" y="169" width="476" height="489" key="FileChooserDialogImpl" timestamp="1598444834978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="118" width="476" height="489" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1597143313995" />
     <state x="2017" y="169" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1597916089716" />
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591944735200" />
-    <state x="651" y="169" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598254862107" />
+    <state x="651" y="169" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598444834978" />
     <state x="259" y="11" key="SettingsEditor" timestamp="1598254878388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1593467949946" />
     <state x="259" y="11" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598254878388" />
-    <state x="387" y="137" key="Vcs.Push.Dialog.v2" timestamp="1598275911605">
+    <state x="387" y="137" key="Vcs.Push.Dialog.v2" timestamp="1598342710845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1597156619260" />
     <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1591963338488" />
-    <state x="387" y="137" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598275911605" />
+    <state x="387" y="137" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598342710845" />
     <state x="1613" y="251" width="1182" height="529" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1597156517552">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
